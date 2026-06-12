@@ -1,0 +1,852 @@
+RESEARCH PAPER
+Genetic and physiological characterization of
+tomato cv. Micro-Tom
+Esmeralda Martı´
+1
+, Carmina Gisbert1,*, Gerard J. Bishop2
+, Mark S. Dixon3 and Jose´ L. Garcı´a-Martı´nez1,†
+1 Instituto de Biologı´a Molecular y Celular de Plantas (IBMCP), Universidad Polite´cnica de Valencia-CSIC,
+Avda de los Naranjos s/n, 46022-Valencia, Spain
+2 Division of Biology, Imperial College London, Wye Campus, Ashford, Kent TN25 5AH, UK
+3 School of Biological Sciences, University of Southampton, Southampton SO16 7PX, UK
+Received 13 September 2005; Accepted 6 February 2006
+Abstract
+Based on its compact habit, Micro-Tom, a dwarf cultivar of tomato (Solanum lycopersicum L.), has been
+proposed as a preferred variety to carry out molecular
+research in tomato. This cultivar, however, is poorly
+characterized. It is shown here that Micro-Tom has
+mutations in the SELF-PRUNING (SP) and DWARF (D)
+genes. In addition to this, it is also shown that MicroTom harbours at least two independently segregating
+resistance loci to the plant pathogen Cladosporium
+fulvum. The presence of the self-pruning mutation in
+Micro-Tom, that generates a determinate phenotype,
+was confirmed by crossing and sequence analysis. It
+was also found that Micro-Tom has a mutation in the
+DWARF gene (d) that leads to mis-splicing and production of at least two shorter mRNAs. The d mutation
+is predicted to generate truncated DWARF protein.
+The d sequence defect co-segregates with dark-green
+and rugose leaves, characteristics of brassinosteroid
+biosynthesis mutants. Micro-Tom also carries at least
+another mutation producing internode length reduction
+that affects plant height but not active gibberellin (GA)
+levels, which were similar in dwarf and tall Micro-Tom3
+Severianin segregants. GAs and brassinosteroids act
+synergistically in Micro-Tom, and the response to GA
+depends on brassinosteroids because the elongation
+of internodes was at least six times higher when GA3
+was applied simultaneously with brassinolide. A novel
+variety, Micro-0 that is fully susceptible to C. fulvum
+and almost as dwarf as Micro-Tom, has been generated
+from the cross of Cf03Micro-Tom. This line represents
+a valuable resource for future analysis of Cf resistance
+genes through breeding or transformation.
+Key words: Brassinosteroids, Cladosporium fulvum, Dwarf,
+gibberellins, Micro-Tom, Self-Pruning, tomato.
+Introduction
+The tomato cultivar Micro-Tom was produced for ornamental purposes by crossing Florida Basket and Ohio 4013-
+3 cultivars, and displays a very dwarf phenotype with small
+and red ripened fruits (Scott and Harbaugh, 1989). Its small
+size, rapid growth, and easy transformation has led to its
+proposal as a convenient model system for research on the
+regulation of berry fruit development (Meissner et al.,
+1997; Eyal and Levy, 2002). It has been suggested, based
+on its pedigree, that the phenotype of Micro-Tom is the
+result of two major recessive mutations: dwarf (d) and
+miniature (mnt) (Meissner et al., 1997). It has also been
+reported that allelism tests support that Micro-Tom carries
+a mutation in gene D (Lima et al., 2004). The determinate
+phenotype of Micro-Tom suggests that it has also a mutation
+in the SELF-PRUNING (SP) gene (Pnueli et al., 1998).
+However, there is no genetic or molecular evidence in the
+literature supporting those conclusions.
+SP belongs to the CETS family of regulatory genes encoding 23 kDa modulator proteins that determine the potential for continuous growth of the shoot apical meristem
+(Pnueli et al., 2001). SP controls the processes in which
+vegetative and reproductive shoots alternate in the sympodial
+* Present address: Centro de Conservacio´n y Mejora de la Agrodiversidad Valenciana (COMAV), Camino de Vera s/n, 460022 Valencia, Spain. y To whom correspondence should be addressed. E-mail: jlgarcim@ibmcp.upv.es
+Abbreviations: BL, brassinolide; BR, brassinosteroid; D, Dwarf; GA, gibberellin; GUS, b-glucuronidase; Ru, rugose; Sh, short; Sm, smooth; SP, Self-pruning;
+Ta, tall.
+Journal of Experimental Botany, Vol. 57, No. 9, pp. 2037–2047, 2006
+doi:10.1093/jxb/erj154 Advance Access publication 10 May, 2006
+This paper is available online free of all access charges (see http://jxb.oxfordjournals.org/open_access.html for further details)
+ª The Author [2006]. Published by Oxford University Press [on behalf of the Society for Experimental Biology]. All rights reserved.
+The online version of this article has been published under an Open Access model. Users are entitled to use, reproduce, disseminate, or display the Open Access version of this article
+for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and the Society for Experimental Biology are attributed as the original
+place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be
+clearly indicated. For commercial re-use, please contact: journals.permissions@oxfordjournals.org
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+tomato shoot, and it has been shown that one base mutation
+that changes an amino acid in the protein produces a determinate phenotype in line M82 (Pnueli et al., 1998).
+The DWARF (D) gene was isolated by transposon tagging
+(Bishop et al., 1996) and shown to encode a P450 protein
+catalysing the C-6 oxidation of 6-deoxocastasterone to
+castasterone in brassinosteroid (BR) biosynthesis (Bishop
+et al., 1999). Genes homologous to tomato D showing C-6
+oxidase activity have also been isolated from Arabidopsis
+(Shimada et al., 2001) and rice (Hong et al., 2002). In
+tomato, D is expressed in all the organs of the plant, mainly
+in vegetative and reproductive tissues undergoing expansion (Montoya et al., 2005). The d mutation has been used
+for a long time to create dwarf tomato varieties, and different mutant alleles of D presenting different degrees of
+dwarfism, rugose, and dark-green leaf phenotype are known
+(Nadhzimov et al., 1988; Bishop, 2003). The strong dx allele
+of D responded more to gibberellin (GA) application
+(Nadhzimov et al., 1988) than wild type, suggesting that
+the BR deficiency may affect the response to GAs. Varietal
+differences in sensitivity to GA independent of the d genotype have also been described (Plummer and Tomes, 1958).
+Micro-Tom is reported as having resistance against
+Fusarium wilt race 1 and grey leafspot (Scott and Harbaugh,
+1989). However, no other published data exist regarding
+the multitude of pathogens to which this cultivar can be
+susceptible. Here, resistance of Micro-Tom to tomato leaf
+mould (Cladosporium fulvum) was examined, and a fully
+susceptible line, almost as dwarf as Micro-Tom, has been
+isolated. It is demonstrated that Micro-Tom carries mutations in the SP and D genes. Additionally, evidence is
+presented supporting that Micro-Tom has at least a third
+mutation affecting plant height. The dwarf phenotype of
+Micro-Tom is thus a consequence of these mutations in
+addition to the lower response to GA, possibly due to the
+reduced BR content of this cultivar.
+Materials and methods
+Plant material and growth conditions
+Plants of tomato (Solanum lycopersicum L.) cultivars of Micro-Tom
+(seeds provided originally by A Levy, Israel), Ailsa Craig, UC-82,
+Rutgers, Madrigal, and Severianin (Centro de Conservacio´n y Mejora
+de la Agrodiversidad Valenciana, Universidad Polite´cnica de Valencia,
+Spain) were used in the experiments. Micro-Tom was crossed with
+Severianin, and F2 seeds were obtained for segregation analysis.
+Cultivars used in the sequencing of the d allele (LA1525 and
+GCR565) were obtained from the TGRC stock centre and John
+Maxon Smith, respectively.
+The plants were grown in the greenhouse (22 8C day and 18 8C
+night) or in a growth cabinet (16 h light at 23 8C and 8 h dark at
+20 8C), in a mixture of peat–vermiculite (50:50 v:v), using 120 or
+600 ml pots for Micro-Tom, and 5.0 l pots for the other cultivars.
+Application of plant growth substances
+Brassinolide (BL; CIDtech Research Inc., Mississauga, Ontario,
+Canada) and GA3 (Sigma, St Louis, MO, USA), separately or
+together, were applied in 10 ll per plant of 10% ethanolic solution
+containing 0.1% Tween-20 to the youngest expanding leaves of
+Micro-Tom. Paclobutrazol (Duchefa, Haarlem, The Netherlands),
+an inhibitor of GA biosynthesis, was applied as 107 M aqueous
+solution to the pot. BL was also added in 5 ml of 108 M aqueous
+solution to germinating seeds grown in Petri dishes over three layers
+of filter paper.
+Plant inoculation
+Inoculation of plants with C. fulvum was performed as described by
+Dickinson et al. (1993) and involved controls of susceptible Cf0
+tomatoes (lacking any Cf resistance genes) and the resistant Cf5 line
+(containing the Cf-5 resistance gene). Cladosporium fulvum race
+4GUS, a race that expresses the uidA reporter gene (Oliver et al.,
+1993), was used for the experiments. b-Glucuronidase (b-GUS)
+reporter enzyme activity was determined according to Jefferson
+et al. (1986).
+Nucleic acid isolation and cDNA synthesis
+Total RNA was isolated from homogenized, frozen tissues using
+the TRIzol (Invitrogen, Paisley, UK) method. cDNA was synthesized
+from total RNA using the First-Strand cDNA Synthesis Kit
+(Amersham Biosciences).
+Genomic DNA was isolated from young leaves according to
+Dellaporta et al. (1983) or Thomas et al. (1994).
+PCR amplification and cloning of PCR products
+Oligonucleotides based on the published sequences of SP (accession
+no. U84140) and D (accession no. U54770) genes were used for PCR
+amplification. The pairs 59-ATGGCTTCCAAAATGTGTGAACC-39
+(sense) and 59-TCAACGCCTTCTAGCGGCAGT-39 (antisense)
+were used as primers to amplify by RT–PCR the entire coding
+region of SP, and 59-ATGGCCTTCTTCTTAATTTTTCTTTCATCC-39 (sense) and 59-TTAGTGAGCTGAAACTCTAATCCGTAGAC-39 (antisense) to amplify the coding region of D in Micro-Tom.
+The same primers were used to isolate genomic clones of D.
+The thermocycling conditions used were: 94 8C 2 min+403(94 8C
+1 min/55 8C 1.5 min/72 8C 3 min)+72 8C 10 min. PCR of genomic
+sequences of different dwarf (d) alleles was carried out using
+primers DW30 (59-AGTCTATATAAACAGAGCACAC-39, sense)
+and DW31 (59-TGCATCCTACAAATCTCTTCTC-39, antisense).
+Oligonucleotide primers were used to amplify cDNA and characterize the presence of D and d transcripts after separating the
+amplified bands by 5% PAGE [A=59-GGGTATATCATTCCTAAAGGATGGAG-39 (sense), and B=59-TTAGTGAGCTGAAACTCTAATCCGTAGAC-39 (antisense)] or by 4% agarose gel
+electrophoresis [C=59-GGAACTTGGTGTAGCAGAAATTTCCACATTTC-39 (sense), and D=59-TTAGTGAGCTGAAACTCTAATCCGTAGAC-39 (antisense)]. The thermocycling conditions were:
+94 8C 5 min+153(94 8C 45 s/62 8C 45 s/72 8C 30 s)+203(94 45 s/62
+8C 45 s/72 8C 45 s)+72 8C 7 min.
+cDNA and genomic clones of GAI of Micro-Tom were isolated
+following amplification with the primers 59-ATGAAGAGAGATCGAGATCGAG-39 (sense) and 59-CATCTCTCTCATTGTCTCTTCC-39 (antisense) (accession no. AY269087).
+PCR amplification products were cloned in p-GEM-T Easy Vector
+Systems (Promega, Madison, WI, USA) (when separated by agarose
+gel electrophoresis) or in pTZ57R (Fermentas, Burlington, Ontario,
+Canada) (when separated by PAGE).
+Polyacrylamide gel electrophoresis
+Non-denaturing (in TAE buffer, at 250 V) 5% PAGE was used to
+separate amplified PCR products to characterize D and d transcripts.
+The DNA from the gel was extracted as described in Sambrook
+et al. (1989) before cloning.
+2038 Martı´et al.
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+DNA sequence analysis
+DNA sequencing was carried out using internal primers on PCR
+products that had been purified using a Qiagen PCR column (Qiagen,
+Chatsworth, CA, USA). Sequencing reactions were performed using
+cycle sequencing dye terminator kits from Applied Biosystems (ABI,
+La Jolla, CA, USA) and carried out according to the manufacturer’s
+instructions. Sequencing reactions were analysed using an ABI 373A
+or an ABI 1337 sequencing system. Contiguous sequences were
+generated using Macintosh-based ABI software Autoassembler.
+Quantification of gibberellins
+A mixture of developing leaves from five plants (three leaves per
+plant) was used in each replicate for GA quantification. Frozen
+material (5 g fresh weight aliquots) was used for extraction,
+purification and quantification of GAs by GC–SIM essentially as
+described before (Fos et al., 2000). [2
+H]GA1,[2
+H]GA8, [
+2
+H]GA19,
+[
+2
+H]GA20, [
+2
+H]GA29, and [2
+H]GA44 (purchased from Professor L
+Mander, Australian National University, Canberra) were used as
+internal standards. The extracts were passed, after QAE-Sephadex
+A-25 column chromatography, through SAX columns (BondElut
+SS-SAX, 500 mg; Varian-Scharlau) before C18-BondElut cartridge
+purification and reverse-phase HPLC fractionation.
+Results
+Micro-Tom has a mutation in the gene SP
+Micro-Tom has a very short stature at the time of flowering
+as a result of very short internodes and a clear determinate
+phenotype (see Fig. 1A for comparison with Ailsa Craig, an
+indeterminate cultivar, and UC-82 and Rutgers, determinate cultivars). To confirm that the determinate phenotype
+was due to an alteration in the SP gene, oligonucleotide
+primers spanning the entire coding sequence were used to
+isolate several (seven) independent cDNA clones of SP by
+RT–PCR. Sequencing of these clones showed that, compared with the sequence of indeterminate cultivars (see
+accession no. U84140), they had a T instead of a C at
+position 227 of the coding sequence. This mutation, found
+previously in the determinate line M82 of tomato, produces
+the change of the proline in position 76 to a leucine (Pnueli
+et al., 1998). The analysis of four independent cDNA
+clones of Severianin, another determinate cultivar used
+later in this work for crossing with Micro-Tom, showed
+that it also had the same mutation in the SP gene.
+Role of brassinosteroids on the vegetative phenotype
+of Micro-Tom
+Plants of Micro-Tom are dwarf and of bushy appearance
+(Fig. 1A) and their leaves are small, with deformed leaflets,
+rugose, and of deep green colour compared with diverse
+wild-type cultivars (Fig. 1B). Those phenotypic characteristics are similar to those described for BR-deficient
+mutants (Altmann, 1998).
+Seedlings of Micro-Tom germinated and grown in Petri
+dishes in the dark for 5 d showed a weak photomorphogenic
+phenotype (disappearance of hook and cotyledon opening)
+(data not presented) when compared with UC-82 (a tall
+determinate cultivar probably bearing a wild-type D allele)
+seedlings. Interestingly, cotyledons of 5-d-old Micro-Tom
+seedlings grown in the light for the last 3 d showed more
+expansion than UC-82 seedlings (Fig. 2A), suggesting that
+light-induced photomorphogenesis takes place earlier in
+Micro-Tom. The application of BL at 108 M reduced
+cotyledon expansion in Micro-Tom and stimulated hypocotyl length both in the light and in darkness, but had no
+visible effect on UC-82 growth (Fig. 2A, B).
+BL applied to developing leaves was sufficient to
+increase the internode length of light-grown plants, an
+effect that was dose dependent (Fig. 2C, D). These results
+suggested that Micro-Tom carries a mutation in a gene of
+BR biosynthesis.
+Micro-Tom has a mutation in the gene D leading to
+mis-splicing
+The analysis of D transcript levels by RT–PCR, using
+oligonucleotides spanning the entire coding sequence as
+primers, showed that Micro-Tom also contained transcripts
+of the expected size (;1.4 kb) (data not presented).
+Therefore, in order to discern whether the D gene of
+Micro-Tom had a mutation that could alter its transcript
+Fig. 1. Plants of Micro-Tom, Ailsa Craig, Rutgers, and UC-82. (A)
+Entire plants at the time of flowering (;2 months old). (B) Fifth leaf from
+the base. MT, Micro-Tom; A, Ailsa-Craig; R, Rutgers, U, UC-82.
+Genetic characterization of Micro-Tom 2039
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+sequence, genomic clones from Micro-Tom and wild-type
+(Moneymaker and Madrigal) cultivars (two from each
+cultivar) were isolated by PCR and sequenced. The three
+genes (DQ374444, DQ374445, and DQ374446) contained
+eight introns and nine exons (Fig. 3A), and had identical
+sequences except for the presence of a T in Micro-Tom at
+position 2468 (starting from the first coding ATG codon)
+instead of an A (mutation d). This base corresponded to
+the 39-consensus splicing AG of intron 8 and should therefore affect splicing. To confirm this possibility, seven
+cDNA clones from two independent PCR-amplified bands
+from Micro-Tom were isolated and sequenced. All of
+these clones were eight bases shorter (d type I transcripts; DQ374442) than those corresponding to wild type
+(U54770 and DQ374447) (Fig. 3B). This means that
+splicing occurred using the AG pair of bases located eight
+bases downstream to the AG corresponding to intron 8 in
+the wild-type gene (Fig. 3A). This produced a premature
+stop leading to a truncated protein 24 amino acids shorter
+(d type I protein; Fig. 3C). Sequencing of genomic
+DNA of the d mutant tomato showed that the sequence was
+identical to that from Micro-Tom, indicating that the d allele
+had been bred into Micro-Tom.
+The d mutation of Micro-Tom co-segregates with
+a brassinosteroid-deficient phenotype
+To identify whether the d mutation in Micro-Tom is the
+cause of the phenotype described previously for diverse
+mutations in the D gene (Bishop et al., 1996, 1999), a cross
+between Micro-Tom and Severianin (a determinate wildtype cultivar) was carried out. The F1 plants were tall and
+with smooth leaves, similar to Severianin. Plants of the F2
+generation were classified according to their leaf phenotype, and 217 plants out of a total of 287 were considered
+as smooth (Sm)-leaf plants, while 70 were darkgreen, wrinkle-leaf plants. The 3:1 ratio (
+2
+, P>0.5) was
+expected for the recessive BR-related mutation responsible of the dark-green, rugose (Ru)-leaf phenotype.
+The specific primers A and B (see Materials and
+methods), spanning a 329 bp region of D, were used to
+amplify cDNA from Severianin and Micro-Tom, and
+the amplified products were analysed by non-denaturing
+Fig. 2. Effect of brassinolide application on growth of Micro-Tom and UC-82. (A) Phenotypes of representative 5-d-old seedlings grown in the dark
+and then transferred to light conditions for an additional 3 d. (B) Hypocotyl length of seedlings grown under continous dark (D) or light (L) conditions in
+the absence (–BL) or the presence (+BL) of 108 M brassinolide. (C) Phenotypes of representative plants treated with different doses of brassinolide.
+(D) Length of the first three internodes of light-grown plants treated with different doses of brassinolide. Measurements are the average of 8–15 plants
+6SE. MT, Micro-Tom; U, UC-82.
+2040 Martı´et al.
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+(Fig. 4A) 5% PAGE. As expected, a single band of 329 bp
+(confirmed by sequencing) was found in Severianin,
+whereas in the case of Micro-Tom two bands were detected.
+The major band from Micro-Tom (band a) contained only
+products of 321 bp (corresponding to the d type I transcripts
+of Micro-Tom described before; Fig. 3B) while the minor
+band (band b) contained products of 315 bp. These corresponded to transcripts 14 bp shorter (d type II transcripts;
+DQ374443) than those of D (Fig. 3B), extending from
+the AG located 14 bp further than the first splicing AG of
+intron 8 in D (Fig. 3A), and should produce a peptide 26
+amino acids shorter (d type II protein) than that corresponding to D (Fig. 3C).
+Twenty-three Sm-leaf and 23 Ru-leaf F2 plants from
+Severianin3Micro-Tom were analysed by RT–PCR for the
+presence of d alleles. Primers C and D, that amplified
+cDNA regions of smaller size, i.e. 145 bp from D, and 137
+and 131 bp from d, were used. All the Sm-leaf plants had
+either one band of 145 bp (lane 3) (similar to Severianin,
+lane S) or an additional band of 137 bp (lanes 1 and 2; two
+bands larger than 145 bp of unknown origin were also
+amplified in this case). By contrast, all the Ru-leaf plants
+had only the 137 bp band (lanes 4–6) (similar to MicroTom; lane MT) (Fig. 4B). An additional band of >145 bp
+of unknown origin was also amplified in Micro-Tom and in
+all the Ru-leaf segregants (lanes 4–6). No band of 131 bp,
+corresponding to d type II transcripts, could be seen in any
+Ru-leaf plant nor in Micro-Tom, probably because of its
+low abundance. The co-segregation of the rugose phenotype with the d mutation indicates that the BR-deficient
+phenotype of Micro-Tom is the result of the d mutation.
+Dwarf segregants of the Micro-Tom3Severianin cross
+contain a mutation that does not affect active
+gibberellin content
+The population of F2 plants from the Micro-Tom3
+Severianin cross was also analysed for segregation of plant
+height by measuring the length of the first five internodes
+(starting from cotyledons). The mean height of the plant
+population with the Sm-leaf phenotype (Fig. 5A) was
+Fig. 4. Co-segregation of the brassinosteroid-deficient phenotype and
+the presence of two d alleles. (A) Separation of PCR products from
+Severianin (S, left) and Micro-Tom (MT, right) amplified with primers A
+and B (see Materials and methods) by non-denaturing PAGE. (B)
+Agarose electrophoresis of PCR products from representative smoothleaf (lanes 1–3) and rugose-leaf (lanes 4–6) segregating plants amplified
+with primers C and D (see Materials and methods). S, Severianin; MT,
+Micro-Tom.
+Fig. 3. Genomic and transcript sequences of the D gene of Micro-Tom and wild type. (A) Scheme of the genomic structure of D. The genomic
+sequences of I8 (bold letters) and near sequences of E8 and E9 of wild type and Micro-Tom are also given. Intron sequences involved in splicing are
+underlined. The asterisk marks the base change in d. (B) Comparison of D and d transcript sequences. d type I and d type II transcript sequences
+correspond to the two d splice variants. (C) Comparison of D and d translated amino acid sequences. The square indicates the iron-binding domain
+conserved in P450 proteins. Wild-type sequences correspond to those from Moneymaker and Madrigal cultivars.
+Genetic characterization of Micro-Tom 2041
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+9.360.2 cm (n=217), and that of those with the Ru-leaf
+phenotype (Fig. 5B) was 6.160.2 cm (n=70). This indicates
+that the d mutation reduces plant height, as expected. The
+height pattern distribution of plants with Sm-leaf phenotype
+(Fig. 5A) suggests that in addition to d, Micro-Tom carries
+at least another mutation also producing internode length
+reduction. This mutation might correspond to the mnt
+mutation previously suggested to be present in Micro-Tom
+(Meissner et al., 1997). The absence of bimodality in
+Fig. 5B may be due to the strong dwarfing effect of
+d masking the additional dwarfing effect of putative mnt in
+plants with Ru-leaf phenotype.
+To determine whether the putative mnt mutation reduces
+internode length by altering GA metabolism, representative
+short (Sh) and tall (Ta) plants within the Sm- and the Ruleaf populations of the Severianin3Micro-Tom cross (Fig.
+5) were selected for quantification of GA levels. The short
+and tall phenotypes of the selected plants were maintained
+in the next generation (Table 2). Determination of GAs of
+the early C-13-hydroxylation pathway, the main GA biosynthesis pathway in tomato (Fos et al., 2000), showed that
+there was no significant content difference of GA1 (the
+active GA) and their immediate precursors (GA44, GA19,
+and GA20) between Sh and Ta plants in Ru- and Sm-leaf
+phenotypic background (Table 1). Interestingly, the content
+of GA29 and GA8, catabolic products of GA20 and GA1,
+respectively, were 2–4-fold higher in Ru than in Sm plants
+(Table 1), raising the possibility that BR defficiency may
+enhance the GA deactivation pathways.
+All the segregant plants from the Micro-Tom3
+Severianin cross elongated in response to GA3, and their
+stem length was reduced by paclobutrazol, an effect that
+could be reversed by GA3 application (Table 2). This
+indicates that internode elongation of plants from both
+Ru-leaf and Sm-leaf phenotype populations depends on
+GAs. Interestingly, although there was no significant difference in GA content between segregants, GA3-treated Sh
+Table 1. Gibberellin content (ng g1 fresh weight) of selected short and tall plants within the rugose- and smooth-leaf plant
+populations from the F2 Micro-Tom3Severianin cross
+Values are means of 3–6 biological replicates 6SE (except GA29 in Rugose-Tall which is the mean of only two replicates). See Fig. 5 for the origin of
+selected rugose- and smooth-leaf lines.
+GA44 GA19 GA20 GA29 GA1 GA8
+Rugose-short 0.2260.09 0.0760.04 0.3360.08 4.260.9 0.3860.08 5.061.2
+Rugose-tall 0.2460.05 0.0860.02 0.8260.08 5.3 0.2660.05 4.161.3
+Smooth-short 0.3260.10 0.1660.04 0.4560.16 1.760.8 0.2360.04 1.160.4
+Smooth-tall 0.2860.04 0.1060.05 0.5560.16 1.560.2 0.2460.04 1.560.5
+Table 2. Response of selected Severianin3Micro-Tom F2 lines to GA3 and paclobutrazol application
+GA3 (1 lg in 10 ll of solution) was applied every 3 d to the youngest leaf, and paclobutrazol (106 M solution) to the roots as water solution. The values
+(mm) are the lengths of the first three internodes and represent means of 12–24 plants from two similar lines 6SE. DGA3 = (GA3–control)/control3100.
+See Fig. 5 for selected rugose- and smooth-leaf lines.
+Control GA3 PCB GA3 + PCB DGA3
+Rugose-leaf plants, short 1961.5 3863960.5 3263 100
+Rugose-leaf plants, tall 3462 7262 1161 5963 112
+Smooth-leaf plants, short 2061 6463960.5 6664 220
+Smooth-leaf plants, tall 4663 101 1661 7965 120
+Fig. 5. F2 height segregation of Micro-Tom3Severianin. (A) Distribution of the F2 population of smooth-leaf plants. (B) Distribution of the
+F2 population of rugose-leaf plants. Height was determined as length of
+the first five internodes. *, Selected dwarf plants; +, selected tall plants.
+2042 Martı´et al.
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+plants did not attain the height of GA3-treated Ta plants,
+further supporting the idea that the short phenotype
+produced by d and putative mnt was not due to GA
+defficiency. While the response of RuSh and RuTa plants
+to GA3 was similar (100% and 112%, respectively), that
+of SmSh plants was about twice that of SmTa plants
+(220% and 120%, respectively) (Table 2). This suggested
+the existence of an interaction between BR and the GA
+response.
+Effect of interaction of gibberellins and
+brassinosteroids on vegetative growth
+The application of GA3 stimulated internode elongation of
+Micro-Tom plants (Fig. 6A, upper row, and B). Paclobutrazol, an inhibitor of GA biosynthesis, reduced the height
+of the plants, and the application of GA3 fully counteracted
+the effect of 108 M, only partially that of 107 M, and had
+no effect on 106 M paclobutrazol (Fig. 6A). Paclobutrazol
+reduced the size of the leaf (estimated by the product of its
+length by maximum width), an effect that could be reversed
+(even that of 107 M) by GA3 (Fig. 6B). Also, the application of GA3 made the margin of the leaves less serrate
+(Fig. 6C), as described before for wild-type tomato (Hay
+et al., 2002). Interestingly, leaf size was apparently more
+sensitive than internode length to GA content modification.
+These results show that Micro-Tom architecture depends
+partially on GA and that this cultivar responds to GA
+application.
+The comparison of GA content in shoots of Micro-Tom
+and the tall cultivars UC-82, Ailsa Craig, and Rutgers did
+not show significant differences for GA1, GA19, GA20,
+and GA29 (Table 3). The level of GA8 (a GA1 inactivation product) was about four times higher in Micro-Tom
+(Table 3), in agreement with the data obtained in selected
+segregating lines (Table 1). However, Micro-Tom presented a response to GA3 about three times lower than
+UC-82 (Table 4), suggesting that the response to GA
+may be reduced in that cultivar. Cloning and sequencing
+of the gene GAI of tomato, that encodes a negative regulator of GA signal transduction (Bassel et al., 2004),
+however, showed that Micro-Tom had no mutation in this
+gene (data not presented).
+The stem of Micro-Tom elongated in response to separate GA3 and BL applications, although less to the former
+(;10 mm with 1 lg of GA3) than to the latter (;18 mm
+Table 4. Stem elongation of Micro-Tom and UC-82 in response
+to GA3 application
+Values (mm) are lengths of the three first internodes and are means of 12
+replicates 6SE. GA3 was applied three times every 3 d in 10 ll of 10%
+methanol solution to the uppermost growing leaf, starting from the first
+true leaf. UC-82/Micro-Tom means the ratio of elongations versus dose 0.
+Cultivar GA3 (ng plant1 per application)
+0 0.2 2 20 200
+Micro-Tom 11.460.3 11.060.7 13.060.8 17.061.5 23.860.8
+UC-82 20.861.3 20.561.6 28.462.3 35.261.4 59.064.1
+UC-82/Micro-Tom – – 4.8 2.6 3.1
+Table 3. Gibberellin content (ng g1 fresh weight) of MicroTom, Ailsa Craig, Rutgers, and UC-82 cultivars
+Values are means of three biological replicates 6SE.
+GA19 GA20 GA29 GA1 GA8
+Micro-Tom 0.760.1 1.160.3 1.661.0 0.560.3 4.660.8
+Ailsa Craig 0.460.05 0.960.05 n.a.a 0.260.1 1.260.4
+Rutgers 0.660.3 1.260.9 1.460.8 0.260.1 0.660.5
+UC-82 0.760.3 0.960.2 0.860.3 0.260.05 n.a.
+a n.a., Not analysed because the internal standard could not be
+detected.
+Fig. 6. Effect of GA3 and paclobutrazol application on Micro-Tom. (A)
+Inhibition of plant height (first five internodes) by different doses of
+paclobutrazol and its reversal by GA3. Data are means of 12 plants 6SE.
+(B) Inhibition of leaf size (estimated as the product of maximal length
+by maximal width) at position five from the base by paclobutrazaol
+and its reversal by GA3. Data are means of 12 leaves 6SE. (C) Effect
+of GA3 application on leaf margin phenotype. –, no GA3; +, 1 lg of GA3.
+Genetic characterization of Micro-Tom 2043
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+with 10 ng of BL) (Fig. 7A, B). However, the elongation
+response to all doses of GA3 (0.01–1 lg) increased with the
+simultaneous application of BL, an effect that was proportional to the amount of BL (between 0.1 and 10 ng).
+For instance, the response to 1 lg of GA3 was ;6-fold
+higher in the presence of 10 ng of BL (Fig. 5B). This
+indicates that the response of tomato to GA depends on
+BR. Conversely, the response to BL was also enhanced by
+GA3, although not as dramatically (e.g. the response to
+10 ng of BL was enhanced about three times by the
+simultaneous application of 1 lg of GA3) (Fig. 7B).
+Resistance against tomato leaf mould
+Micro-Tom was analysed for resistance to C. fulvum and,
+14 d post-inoculation with C. fulvum race 4GUS, heavy
+sporulation was macroscopically visible on the lower leaf
+surface of Cf0 (susceptible) plants, while no sporulation
+was observed on either Cf5 (resistant) or Micro-Tom plants
+(Table 5). For a more accurate determination of the
+resistance present in Micro-Tom, each inoculated plant
+was assessed for GUS reporter enzyme activity. It has been
+shown previously that GUS enzyme activity correlates with
+the level of C. fulvum biomass accumulation and therefore
+indicates the degree of susceptibility (Oliver et al., 1993).
+Inoculated Micro-Tom contained average GUS levels
+intermediate to those of Cf0 and Cf5, ;5-fold higher
+than resistant Cf5 plants, but 10-fold lower than susceptible Cf0 plants (data not shown). These data suggest that
+the gene(s) conferring resistance in Micro-Tom provide a weaker degree of protection than Cf-5.
+To determine the number of resistance genes in MicroTom, crosses were made to the susceptible Cf0 line to
+generate an F2 population segregating for resistance. Due to
+the relatively weak nature of the resistance in Micro-Tom,
+an initial screen was performed where young F2 plants were
+inoculated as previously described and scored for resistance
+by determination of GUS reporter enzyme activity. Only
+a single fully susceptible plant was recovered from 20 F2
+plants, suggesting that resistance is the consequence of at
+least two independently segregating genes (Table 5).
+A further 492 F2 plants were visually screened for susceptibility, and the resulting ratio supports the initial data
+where GUS reporter activity was assessed. DNA marker
+analysis on Micro-Tom indicates that neither of these
+resistance genes is Cf-2, Cf-4, Cf-5, or Cf-9 (data not
+shown). Further screening of Cf03Micro-Tom F2 plants
+allowed the identification of a fully susceptible plant,
+almost as dwarf as Micro-Tom, leading to the development
+of a line designated Micro-0. Micro-0 represents a valuable
+resource for future analysis of Cf resistance genes through
+breeding or transformation.
+Fig. 7. Effect of separated and combined application of brassinolide and
+GA3. (A) Phenotypes of representative plants for the different treatments.
+(B) Length of the first three internodes. Measurements are means of eight
+plants 6SE.
+Table 5. Cf resistance genes in Micro-Tom
+R denotes resistance, S denotes susceptibility, + indicates that all plants
+have this phenotype. P = 0.05 for a 2 with one degree of freedom = 3.84.
+Susceptibility assessed by determination of the GUS reporter enzyme
+activity.
+Genotype R S 2
+Cf0 – + –
+Cf5 + – –
+Micro-Tom + – –
+Cf03MT F2 19 1 0.053
+2044 Martı´et al.
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+Discussion
+Micro-Tom displays a determinate phenotype, and it has
+now been shown to carry a base change in the SP gene
+identical to that found previously to produce a determinate
+phenotype in tomato. The same sp mutation was also found
+in Severianin, a tall Russian determinate cultivar similar to
+Rutgers and UC-82, source of the facultative parthenocarpic gene pat-2 (Fos et al., 2000), used in crossing experiments with Micro-Tom in this work. Growth determination
+is a phenotypic characteristic incorporated in most of the
+tomato cultivars used at present. However, no other alleles
+of SP have been described previously. The fact that the
+same allele is present in three unrelated cultivars [MicroTom and Severianin (this work), and M82 (Pnueli et al.,
+1998)] suggests that the determinate phenotype was introduced following a unique mutation event.
+The dwarf phenotype of Micro-Tom is certainly not due
+to the sp mutation, as seen in Fig. 1 by comparing MicroTom with UC-82 and Rutgers, all determinate cultivars.
+The phenotype of Micro-Tom (short internodes and small,
+rugose, and dark-green leaves) is similar to that of BRdeficient tomato mutants (Bishop et al., 1996, 1999), suggesting that this cultivar contains a defficiency of BR biosynthesis. It was found that Micro-Tom carries a mutation
+in the D gene, known to code for a BR-6-oxidase. The
+mutation (d) consists of a change of a base at the 39 AG
+consensus region of intron 8 that leads to mis-splicing
+and production of transcripts eight (the most abundant) and
+14 bases shorter than wild type. These transcripts have
+premature stop codons that may produce peptides with
+23 and 26 fewer amino acids, respectively. It is likely,
+however, that, since the three domains conserved in P450
+proteins (Bishop et al., 1996) are not affected, reduced
+enzyme function and only a relatively weak phenotype is
+generated. Several lines of evidence strongly support the
+fact that Micro-Tom is a BR-deficient mutant: (i) MicroTom but not wild-type hypocotyls respond to low concentrations of BL; (ii) adult Micro-Tom plants present the
+characteristic BR-deficient phenotype; (iii) the characteristics of BR deficiency co-segregate with the presence of
+d in the F2 population of a Micro-Tom3Severianin cross;
+and (iv) d is a known allele of the dx mutation that has been
+shown to be BR deficient (Bishop et al., 1996, 1999).
+Additionally, Micro-Tom seedlings in the dark present
+a slight photomorphogenic phenotype and de-etiolate more
+rapidly than wild-type seedlings upon white light irradiation. The role of BR on photomorphogenesis repression,
+however, is the subject of current strong controversy (Jager
+et al., 2005).
+When Micro-Tom (dwarf) and Severianin (tall), both of
+them determinate cultivars, were crossed, the plants with
+BR-deficient phenotype (bearing rugose and dark-green
+leaves) were a quarter of the F2 population (3:1 segregation), as expected for a recessive mutation. The mean height
+of Ru- (BR-deficient) leaf (6.160.2 cm) plants was
+significantly lower than that of Sm- (non-BR-deficient)
+leaf plants (9.360.2 cm), in agreement with the dwarfing
+effect of BR deficiency linked to d. The height distribution
+of the Sm-leaf plant population (Fig. 5A), however, suggested the presence of at least another mutation (putative
+mnt) affecting height. Selected Sh lines from the Ru- and
+Sm-leaf populations, purportedly carrying this mutation,
+elongated in response to GA3 application. However, the
+comparison of Sh and Ta plant levels of endogenous GAs
+(Table 1) and the response to GA3 (Table 2) allow us to
+conclude that the putative mnt mutation does not reduce
+stem length by altering the content of active GA. Although
+it is not possible to decide yet about the nature of this
+mutation, it seems to be different from the three previously
+described mutations in genes of GA metabolism in tomato
+(gib-1,-2, and -3) (Bensen and Zeevaart, 1990).
+The height of Micro-Tom was reduced even further by
+paclobutrazol (an inhibitor of GA biosynthesis), and this
+effect was restored by GA3 application (Fig. 6). This
+indicates that internode elongation of Micro-Tom depends
+on GAs, as also shown with F2 segregants of the MicroTom3Severin cross (Table 2). However, the response of
+Micro-Tom to GA3 was several fold lower than the
+response of UC-82 (Table 4). This is in contrast to the
+higher response of the dx mutant to GA3 compared with
+wild-type plants described by Nadhzimov et al. (1988).
+This difference may be due to the severe phenotype of
+the dx mutation and/or to the different method of GA3
+application (Nadhzimov et al. applied GA3 when the plants
+were 3-weeks-old and measured the final plant height, rather
+than specific internodes). Interestingly, the GA content of
+Micro-Tom was similar to those of Ailsa Craig, UC-82,
+and Rutgers, all of them tall cultivars (Table 3). Although it
+is difficult to compare GA levels between cultivars with
+such different genetic backgrounds, the data are in agreement with the absence of significant differences of active
+GA levels between the Micro-Tom3Severianin tall and
+short segregants (Table 1), confirming that Micro-Tom is
+not a GA-deficient cultivar. It also supports the fact that
+BRs do not regulate GA biosynthesis in tomato. However,
+the higher content of GA29 and/or GA8 in Ru- versus Smleaf plants (Table 1) and in Micro-Tom versus Ailsa Craig
+and Rugers cultivars (Table 3) suggests that BR may
+regulate GA inactivation. These results are in agreement
+with lkb and lka pea, BR-deficient and BR-response mutants, respectively, which do not have a reduction in
+GA1 but an increase in GA8 and/or GA29 content (Jager
+et al., 2005), indicating that in pea, BRs do not promote
+elongation by altering GA1 levels. This seems to be in
+contrast to Arabidopsis, where BR treatment increased
+transcript levels of a GA20-oxidase gene (Bouquin et al.,
+2001), suggesting that BR might have a direct and positive
+effect on GA levels (although no GA measurements were
+carried out). Therefore, the dwarf habit of Micro-Tom, in
+Genetic characterization of Micro-Tom 2045
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+addition to BR deficiency, might be due to an altered GA
+response. It is known that the DELLA proteins, encoded by
+GAI and GAI-like genes, are repressors of cell elongation
+that are inactivated by GAs (Olszewski et al., 2002; Sun
+and Gubler, 2004). In some mutants, their GA-insensitive
+dwarf phenotype is the result of constitutive activation of
+DELLA proteins, associated with higher levels of active
+GAs (Olszewski et al., 2002). However, this does not seem
+to be the case in Micro-Tom since, in addition to not
+presenting an accumulation of GAs (Table 3), it was found
+that the sequence of LeGAI (the only gene known to
+encode DELLA proteins in tomato; Bassel et al., 2004) was
+identical to that of the wild type. Interestingly, the response
+of internode elongation to GA3 application was much
+higher (up to 6-fold) in the presence of BL. This effect was
+dose dependent (Fig. 7) and shows that there is an interaction between these two groups of hormones in vegetative
+growth of tomato. This conclusion is also supported by the
+higher response to GA3 of SmSh (carrying D) than RuSh
+(carrying d in homozygous) segregating plants (Table 2). A
+synergistic effect between GA3 and BL on hypocotyl
+elongation has also been found in wild-type Arabidopsis
+grown in the light (Tanaka et al., 2003) and in det-2 mutant
+Arabidopsis grown in the dark (D Alabadı´, personal
+communication). Azpiroz et al. (1998) obtained indirect
+evidence from the phenotypic analysis of the dwf4 BRdeficient Arabidopsis mutant that a fully active BR pathway
+is necessary for a full response to GA, auxin, and darkness.
+In the BR-deficient mutant dwf1, there is higher expression
+of GASA4, a GA-regulated gene (Mu¨ssig et al., 2002).
+Also, the fact that BR restores wild-type sensitivity to
+auxin, abscisic acid, and GA3 in sax1 seedlings (Ephritikhine
+et al., 1999) strongly demonstrates that three different signalling pathways controlling cell elongation are under the
+control of a fourth pathway involving BR. Interestingly, in
+rice, two XET genes are up-regulated by BRs and GAs,
+suggesting that BRs are essential for GA sensitivity (Uozo
+et al., 2000). Therefore, there is substantial evidence supporting that there is cross-talk between BR and GA signalling, and that the dwarf habit of Micro-Tom is also
+probably due to a reduced GA response as a result of BR
+deficiency. By contrast, in mung bean epicotyls, it was reported that the application of GA3 (107 M) has an additive
+effect with low concentrations of BL (109
+–108 M)
+(Gregory and Mandava, 1981), suggesting that in this species the two hormones act independently at the cellular level.
+Micro-Tom is resistant to C. fulvum. However, these data
+show that resistance does not correspond to the previously
+characterized Cf-2, Cf-4, Cf-5, or Cf-9 resistance genes
+(Jones et al., 1994; Dixon et al., 1996, 1998; Thomas et al.,
+1997). Indeed this is supported by the intermediate level
+of resistance observed in Micro-Tom when compared with
+the Cf5 resistant line. Crosses suggest that two independently segregating genes are present and that the amount of
+resistance that is conferred by each gene must be relatively
+weak. The effect of Cf resistance genes is known to be
+additive in a dose-dependent manner (Hammond-Kosack
+et al., 1994). The resistance genes present in Micro-Tom
+must also be relatively unlinked to the major genes
+controlling dwarfism, as a small susceptible line designated
+Micro-0 was easily isolated from a cross with Cf0 (a
+susceptible, normal height plant). Many Cf-like genes are
+known to exist in tomato (Kruijt et al., 2005), but the exact
+nature of these resistance genes in Micro-Tom remains
+elusive. The Micro-Tom and Micro-0 lines offer an
+extremely useful resource for studying disease resistance
+in mature plants.
+In summary, the phenotype of Micro-Tom plants is due
+to at least three mutations. The characterization of two of
+them, sp (producing a determinate phenotype) and d (reducing internode length and producing smaller, rugose, and
+dark-green leaves as a result of reduced BR content), has
+been carried out in this work. In addition, Micro-Tom has
+another mutation (putative mnt), still uncharacterized and
+that does not affect GA metabolism but which is likely to
+be associated with GA signalling. In addition, an effect of
+a synergistic interaction between BR and GAs on vegetative growth has also been observed. These findings, and
+noting the presence of additional Cf resistance genes,
+highlights that some caution is required when obtaining
+data using this variety. However, in spite of these mutations
+altering the architecture of the plant so dramatically,
+pollinated ovaries develop normally, and unpollinated
+ovaries also grow in response to auxin and GA3 application
+(data not presented), indicating that Micro-Tom remains
+a useful system to investigate fruit set and development.
+Acknowledgements
+The work was supported by the Spanish Ministry of Science and
+Technology (grant BIO2003-00151 to JLG-M) and by the Consellerı´a de Agricultura de la Generalitat Valenciana (fellowship to
+EM). We thank Professor Avraham A Levy for providing seeds
+of Micro-Tom, Professor F Nuez for seeds of different tomato cultivars, Ms Teresa Sabater for help with GA analyses, and Drs Isabel
+Lo´pez-Dı´az and David Alabadı´ for critical review of the manuscript.
+GJB thanks J Jones and Y Kamiya for support.
+References
+Altmann T. 1998. A tale of dwarfs and drugs: brassinosteroids to the
+rescue. Trends in Genetics 14, 490–495.
+Azpiroz R, Wu Y, LoCascio JC, Feldmann KA. 1998. An
+Arabidopsis brassinosteroid-dependent mutant is blocked in cell
+elongation. The Plant Cell 10, 219–230.
+Bassel GW, Zielinska E, Mullen RT, Bewley JD. 2004. Downregulation of DELLA genes is not essential for germination of
+tomato, soybean, and arabidopsis seeds. Plant Physiology 136,
+2782–2789.
+Bensen RJ, Zeevaart JAD. 1990. Comparison of ent-kaurene
+synthetase A and B activities in cell-free extracts from young
+tomato fruits of wild-type and gib-1, gib-2, and gib-3 tomato
+plants. Jounal of Plant Growth Regulation 9, 237–242.
+2046 Martı´et al.
+Downloaded from https://academic.oup.com/jxb/article/57/9/2037/622929 by guest on 31 May 2026
+Bishop GJ. 2003. Brassinosteroid mutants of crops. Journal of Plant
+Growth Regulation 22, 325–335
+Bishop GJ, Harrison K, Jones JDG. 1996. The tomato Dwarf gene
+isolated by heterologous transposon tagging encodes the first member of a new cytochrome P450 family. The Plant Cell 8, 959–969.
+Bishop GJ, Nomura T, Yokota T, Harrison K, Noguchi T,
+Fujioka S, Takatsuto S, Jones JDG, Kamiya Y. 1999. The
+tomato DWARF enzyme catalyses C-6 oxidation in brassinosteroid
+biosynthesis. Proceedings of the National Academy of Sciences,
+USA 96, 1761–1766.
+Bouquin T, Meier C, Foster R, Nielsen ME, Mundy J. 2001.
+Control of specific gene expression by gibberellin and brassinosteroid. Plant Physiology 127, 450–458.
+Dellaporta SL, Wood J, Hicks JB. 1983. A plant DNA minipreparation: version II. Plant Molecular Biology Reporter 1, 19–23.
+Dickinson MJ, Jones DA, Jones JDG. 1993. Close linkage between
+the Cf-2/Cf-5 and Mi resistance loci in tomato. Molecular Plant–
+Microbe Interaction 6, 341–347.
+Dixon MS, Jones DA, Keddie JS, Thomas CM, Harrison K,
+Jones JDG. 1996. The tomato Cf-2 disease resistance gene
+comprises two functional genes encoding leucine-rich repeat
+proteins. Cell 84, 451–459.
+Dixon MS, Hatzixanthis K, Jones DA, Harrison K, Jones JDG.
+1998. The tomato Cf-5 disease resistance gene and six homologs
+show pronounced allelic variation in leucine-rich repeat copy
+number. The Plant Cell 10, 1915–1925.
+Ephritikhine G, Fellner M, Vannini C, Lapous D, BarbierBrygoo H. 1999. The sax1 dwarf mutant of Arabidopsis thaliana
+shows altered sensitivity of growth responses to abscisic acid,
+auxin, giberellins and ethylene and is partially rescued by
+exogenous brassinosteroid. The Plant Journal 18, 303–314.
+Eyal E, Levy AA. 2002. Tomato mutants as tools for functional
+genomics. Current Opinion in Plant Biology 5, 112–117.
+Fos M, Nuez F, Garcı´a-Martı´nez JL. 2000. The gene pat-2, which
+induces natural parthenocarpy, alters the gibberellin content in
+unpollinated tomato ovaries. Plant Physiology 122, 471–479.
+Gregory LE, Mandava NB. 1981. The activity and interaction of
+brassinolide and gibberellic acid in mung bean epicotyls. Physiologia Plantarum 54, 239–243.
+Hammond-Kosack KE, Jones JDG. 1994. Incomplete dominance
+of tomato Cf genes for resistance to Cladosporium fulvum.
+Molecular Plant-Microbe Interaction 7, 58–70.
+Hay A, Kaur H, Phillips A, Hedden P, Hake S, Tsiantis M.
+2002. The gibberellin pathway mediates KNOTTED1-type
+homeobox function in plants with different body plans. Current
+Biology 12, 1557–1565.
+Hong Z, Ueguchi-Tanaka M, Shimizu-Sato S, et al. 2002. Loss-offunction of a rice brassinosteroid biosynthetic enzyme, C-6
+oxidase, prevents the organized arrangement and polar elongation
+of cells in the leaves and stem. The Plant Journal 32, 495–508.
+Jager CE, Symons GM, Ross JJ, Smith JJ, Reid JB. 2005. The
+brassinosteroid growth response in pea is not mediated by changes
+in gibberellin content. Planta 221, 141–148.
+Jefferson RA, Burgess SM, Hirsch D. 1986. b-Glucuronidase from
+Escherichia coli as a gene fusion marker. Proceedings of the
+National Academy of Sciences, USA 83, 8447–8451.
+Jones DA, Thomas CM, Hammond-Kosack KE, Balint-Kurti PJ,
+Jones JDG. 1994. Isolation of the tomato Cf-9 gene for resistance
+to Cladosporium fulvum by transposon tagging. Science 266,
+789–793.
+Kruijt M, De Kock MJD, De Wit PJGM. 2005. Receptor-like
+proteins involved in plant disease resistance. Molecular Plant
+Pathology 6, 85–97.
+Lima JE, Carvalho RF, Neto AT, Figueira A, Peres LEP. 2004.
+Micro-MsK: a tomato genotype with miniature size, short life
+cycle, and improved in vitro shoot regeneration. Plant Science
+167, 753–757.
+Meissner R, Jacobson Y, Melamed S, Levyatuv S, Shalev G,
+Ashri A, Elkind Y, Levy AA. 1997. A new model system for
+tomato genetics. The Plant Journal 12, 1465–1472.
+Montoya T, Nomura T, Yokota T, Farrar K, Harrison K,
+Jones JGD, Kaneta T, Kamiya Y, Szekeres M, Bishop GJ.
+2005. Patterns of Dwarf expression and brassinosteroid accumulation in tomato reveal the importance of brassinosteroid synthesis during fruit development. The Plant Journal 42, 262–269.
+Mu¨ssig C, Fisher S, Altmann T. 2002. Brassinosteroid-regulated
+gene expression. Plant Physiology 129, 1241–1251.
+Nadhzimov UK, Jupe SC, Jones MG, Scott IM. 1988. Growth
+and gibberellin relations of the extreme dwarf dx tomato mutant.
+Physiologia Plantarum 73, 252–256.
+Oliver RP, Farman ML, Jones JDG, Hammond-Kosack KE.
+1993. Use of fungal transformants expressing beta-glucuronidase
+activity to detect infection and measure hyphal biomass in infectedplant tissues. Molecular Plant-Microbe Interaction 6, 521–525.
+Olszewski N, Sun T-P, Gubler F. 2002. Gibberellin signaling:
+biosynthesis, catabolism, and response pathways. The Plant Cell
+(Supplement), S61–S80.
+Plummer TH, Tomes ML. 1958. Effects of indoleacetic acid and
+giberellic acid on normal and dwarf tomatoes. Botanical Gazette
+119, 197–200.
+Pnueli L, Carmel-Goren L, Hareven D, Gutfinger T, Alvarez J,
+Ganal M, Zamir D, Lifschitz E. 1998. The SELF-PRUNING
+gene of tomato regulates vegetative to reproductive switching of
+sympodial meristems and is the ortholog of CEN and TFL1.
+Development 125, 1979–1989.
+Pnueli L, Gufinger T, Hareven D, Ben-Naim O, Ron N, Adir N,
+Lifschitz E. 2001. Tomato SP-interacting proteins define a conserved signaling system that regulates shoot architecture and
+flowering. The Plant Cell 13, 2687–2702.
+Sambrook J, Fritsch EF, Maniatis T. 1989. Molecular cloning.
+A laboratory manual, 2nd edn. Cold Spring Harbor, New York:
+Cold Spring Harbor Laboratory Press.
+Scott JW, Harbaugh BK. 1989. Micro-Tom. A miniature dwarf
+tomato. Florida Agricultural Experimental Station Circular
+S-370, 1–6.
+Shimada Y, Fujioka S, Miyauchi N, Kushiro M, Takatsuto S,
+Nomura T, Yokota T, Kamiya, Bishop GJ, Yoshida S. 2001.
+Brassinosteroid-6-oxidases from Arabidopsis and tomato catalyze
+multiple C-6 oxidations in brassinosteroid biosynthesis. Plant
+Physiology 126, 770–779.
+Sun T-P, Gubler F. 2004. Molecular mechanism of gibberellin
+signaling in plants. Annual Review of Plant Biology 55, 197–223.
+Tanaka K, Nakamura Y, Asami T, Yoshida S, Matsuo T,
+Okamoto S. 2003. Physiological roles of brassinosteroids in early
+growth of Arabidopsis: brassinosteroids have a synergistic relationship with giberellin as well as auxin in light-grown hypocotyl
+elongation. Journal of Plant Growth Regulation 23, 259–271.
+Thomas CM, Jones DA, English JJ, Carroll BJ, Bennetzen JL,
+Harrison K, Burbidge A, Bishop GJ, Jones JDG. 1994.
+Analysis of the chromosomal distribution of transposon-carrying
+T-DNAs in tomato using the inverse polymerase chain-reaction.
+Molecular and General Genetics 242, 573–585.
+Thomas CM, Jones DA, Parniske M, Harrison K, BalintKurti PJ, Hatzixanthis K, Jones JDG. 1997. Characterisation
+of the tomato Cf-4 gene for resistance to Cladosporium fulvum
+identifies sequences that determine recognitional specificity in
+Cf-4 and Cf-9. The Plant Cell 9, 2209–2224.
+Uozo S, Tanaka-Ueguchi M, Kitano H, Hattori K, Matsuoka M.
+2000. Characterization of XET-related genes of rice. Plant
+Physiology 122, 853–860

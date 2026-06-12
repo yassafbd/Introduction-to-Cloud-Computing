@@ -1,0 +1,382 @@
+TOMATOMA: A Novel Tomato Mutant Database Distributing Micro-Tom Mutant Collections Open Access
+Takeshi Saito , Tohru Ariizumi , Yoshihiro Okabe , Erika Asamizu , Kyoko Hiwasa-Tanase , Naoya Fukuda , Tsuyoshi Mizoguchi , Yukiko Yamazaki , Koh Aoki , Hiroshi Ezura
+Plant and Cell Physiology, Volume 52, Issue 2, February 2011, Pages 283–296, https://doi.org/10.1093/pcp/pcr004
+Published: 21 January 2011 Article history
+pdfPDF
+ Split View
+ Cite
+Permissions Icon Permissions
+Share Icon Share 
+Abstract
+The tomato is an excellent model for studies of plants bearing berry-type fruits and for experimental studies of the Solanaceae family of plants due to its conserved genetic organization. In this study, a comprehensive mutant tomato population was generated in the background of Micro-Tom, a dwarf, rapid-growth variety. In this and previous studies, a family including 8,598 and 6,422 M2 mutagenized lines was produced by ethylmethane sulfonate (EMS) mutagenesis and γ-ray irradiation, and this study developed and investigated these M2 plants for alteration of visible phenotypes. A total of 9,183 independent M2 families comprising 91,830 M2 plants were inspected for phenotypic alteration, and 1,048 individual mutants were isolated. Subsequently, the observed mutant phenotypes were classified into 15 major categories and 48 subcategories. Overall, 1,819 phenotypic categories were found in 1,048 mutants. Of these mutants, 549 were pleiotropic, whereas 499 were non-pleiotropic. Multiple different mutant alleles per locus were found in the mutant libraries, suggesting that the mutagenized populations were nearly saturated. Additionally, genetic analysis of backcrosses indicated the successful inheritance of the mutations in BC1F2 populations, confirming the reproducibility in the morphological phenotyping of the M2 plants. To integrate and manage the visible phenotypes of mutants and other associated data, we developed the in silico database TOMATOMA, a relational system interfacing modules between mutant line names and phenotypic categories. TOMATOMA is a freely accessible database, and these mutant recourses are available through the TOMATOMA (http://tomatoma.nbrp.jp/index.jsp).
+
+Issue Section: Regular Papers
+Introduction
+The tomato (Solanum lycopersicum) is an important crop in the fresh vegetable and food processing industry, with one of the highest productions for edible crops in the world. The tomato is also an excellent model plant for studying Solanaceae species, since it has a relatively small genomic size (950 Mb) and shares the same haploid chromosome number and conserved genome organization (i.e. a high level of gene synteny) with the other Solanaceous plants (Rick and Yoder 1988, Hille et al. 1989, Tanksley 2004). Additionally, the tomato bears fleshy berry-type fruits and is extensively used as a target for studying fruit development and fruit ripening/maturation, as well as metabolite analysis (Emmanuel and Levy 2002, Carrari and Fernie 2006, Egea et al. 2010, Mochida and Shinozaki 2010, Pineda et al. 2010, Sun et al. 2010, Yin et al. 2010). Furthermore, studies of abiotic and biotic responses have been widely carried out in the tomato (Matsui et al. 2010, Rellan-Alvarez et al. 2010, Rivero et al. 2010, Uehara et al. 2010). The tomato has been selected as a core model plant for accelerating genomic studies in the Solanaceae family, and its genome is being sequenced by The International Solanaceae Genomics Project (SOL) (Mueller et al. 2005a, Mueller et al. 2005b, Mueller et al. 2009).
+
+The majority of the tomato genome has now been released and is best represented at the Solanaceae Genomics Network web site (SGN, http://solgenomics.net/). Moreover, draft genome sequences of some wild relatives, large numbers of tomato expressed sequence tags (ESTs; 320,000 clones) and the full-length cDNA sequence (13,722 unigene clones) have been released at the SGN, MiBASE (http://www.pgb.kazusa.or.jp/mibase/) and KafTom (http://www.pgb.kazusa.or.jp/kaftom/) databases (Aoki et al. 2010, Ozaki et al. 2010, Bombarely et al. 2011). To render the genome sequence useful, the International Tomato Annotation Group (ITAG) has been engaging in gene annotation and had identified 7,464 protein coding genes as of 2009 (Mueller et al. 2009). Due to the great advances in the genome sequence project, it seems that now is the perfect time to exploit the genome information for exploring gene functions controlling important traits of the tomato and that the mutagen-induced mutant population could be a powerful tool for accelerating tomato functional genomics (Kuromori et al. 2009).
+
+Menda et al. (2004) developed a comprehensive isogenic tomato mutant population in the genetic background of cultivar (cv.) M82. A total of 13,000 M2 families, which were derived from ethylmethane sulfonate (EMS) and fast-neutron mutagenesis, were visually phenotyped in the field, and 3,417 independent mutants were classified into a morphological catalog on the website ‘Genes That Make Tomatoes’ (http://zamir.sgn.cornell.edu/mutants/). Recently, new mutant collections were generated in the genetic backgrounds of the cv. Red Setter and Tpaadasu using an EMS mutagenesis approach (Gady et al. 2009, Minoia et al. 2010). These isogenic mutant resources are useful for dissecting the mechanisms underlying mutant phenotypes, and such mutagenized populations are also being used to develop targeting induced local lesions in genomes (TILLING) platforms, which represent a high-throughput reverse genetic strategy to screen for point mutations in specific regions of targeted genes (McCallum et al. 2000a, McCallum et al. 2000b, Colbert et al. 2001, Minoia et al. 2010). During the last decade, several mutant populations in the genetic background of the miniature cv. Micro-Tom, which were derived from EMS (Meissner et al. 1997), fast-neutron bombardment (David-Schwartz et al. 2001), activation tagging (Mathews et al. 2003) and Activator/Dissociation (Ac/Ds) transposon tagging (Meissner et al. 2000), have been developed, although these resources are not currently available to the scientific community.
+
+The C. M. Rick Tomato Genetics Resource Center (TGRC) at the University of California, Davis (http://tgrc.ucdavis.edu/) plays an important role as a seed stock center of various tomato genotypes, providing phenotypic information on 1,023 monogenic mutants at 625 putative genetic loci. These stocks come from several sources, including spontaneous and induced mutants and natural variants from the edible tomato and wild relatives, including many members of the Solanum genus. The TGRC also provides 1,160 lines of wild species and 1,560 miscellaneous genetic lines. These seed materials are available upon request following the completion of a material transfer agreement (MTA) contract.
+
+In Japan, as a part of the National BioResource Project (NBRP) funded by the Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan (Yamazaki et al. 2010), families of 10,793 M2 mutagenized lines of Micro-Tom, consisting of 4,371 and 6,422 lines that were generated by EMS mutagenesis and γ-ray irradiation, respectively, were previously produced (Matsukura et al. 2007, Watanabe et al. 2007). By November 2010, we had further produced 4,227 lines of EMS-derived M2 families. This report examines the visible phenotypes of mutants in the M2 plants and their phenotypic information, including phenotypic categories and images, which were registered in the freely accessible TOMATOMA database. We report here that our mutant populations contained mutants sharing similar visible phenotypes with classically known mutants, as well as the number of putative novel classes of mutants showing uncharacterized leaf morphology, flower development and fruit formation. We also provide evidence that multiple different alleles were present per locus, suggesting that the mutant populations were nearly saturated. These mutant collections are searchable in silico, and the comprehensive mutant populations represent valuable tools for promoting tomato functional analyses.
+
+Results
+Morphological appearance of Micro-Tom
+Fig. 1 shows the plant behavior of the miniature tomato cv. Micro-Tom compared with that of cv. M82, the background variety in the saturated mutant libraries used by Menda et al. (2004). Most cultivated tomato varieties, including M82, have certain drawbacks when grown in limited space due to their large size (approximately 1 m in height in the adult stage) and a relatively long life cycle (90–110 d from seed germination to fruit maturation) (Meissner et al. 1997, Emmanuel and Levy 2002). In contrast, Micro-Tom exhibits dwarfism (approximately 10–20 cm height) and a rapid life cycle, with fruit maturity occurring 70–90 d after sowing. Micro-Tom can be grown at a high density of up to 1,325 plants m−2 (Scott and Harbaugh 1989), which is ideal for indoor cultivation in most plant biology laboratories (Fig. 1C). Additionally, a highly efficient Agrobacterium-mediated transformation method has been established for this cultivar (Dan et al. 2006, Sun et al. 2006), which is indispensable for investigating gene function. Moreover, Micro-Tom is capable of both intraspecific and interspecific cross-pollination with most cultivated tomato varieties and wild relatives, allowing for the transfer of mutations into commercially available varieties and the production of F2 hybrid populations for positional candidate gene cloning. Furthermore, various types of genetic and molecular tools have been developed in Micro-Tom, including metabolite profile annotation and full-length cDNA collections (Iijima et al. 2008, Aoki et al. 2010). These beneficial traits make Micro-Tom an attractive model cultivar for studying tomato plants, and, thus, it was chosen as the core genetic background to develop comprehensive mutant populations in this study.
+
+Comparison of growth criteria in Micro-Tom and M82. (A) Appearance of 80-day-old Micro-Tom (left) and M82 (right) plants from a side view. Bar = 10 cm. (B) Image of 80-day-old Micro-Tom (left) and M82 (right) plants taken from the top. (C) High density cultivation of Micro-Tom in an indoor growth room.
+Fig. 1Comparison of growth criteria in Micro-Tom and M82. (A) Appearance of 80-day-old Micro-Tom (left) and M82 (right) plants from a side view. Bar = 10 cm. (B) Image of 80-day-old Micro-Tom (left) and M82 (right) plants taken from the top. (C) High density cultivation of Micro-Tom in an indoor growth room.
+Open in new tabDownload slide
+Frequency of mutation in EMS-mutagenized populations
+To optimize EMS mutagenesis, Micro-Tom seeds were treated with different EMS concentrations (0.3, 0.5, 1.0 or 1.5%) and for different incubation times (12, 16 or 48 h incubation) from 2004 to 2009 (Supplementary Table S1). For each EMS treatment, the lethal dose (LD), rate of surviving M1 plants and rate of fertile M1 plants were determined. The rate of surviving M1 plants was probably dependent on the concentrations of the EMS treatments (0.3–1.5%), ranging from 34.7 to 94.1%, with the LD ranging from 2 to 63. The rate of fertile M1 plants ranged from 19.0 to 87.9%.
+
+In total, 8,598 of 22,500 mutagenized M1 plants were fertile, and M2 seeds were harvested from each of the single M1 plants (Fig. 2). Then, approximately 10 M2 seeds produced from the same M1 plant were sown as an M2 family, and M3 seeds were harvested from each M2 family. By November 2010, 6,483 M2 families (∼65,000 M2 seeds) had been sown in the greenhouse. The germination rates of the M2 families appeared to vary from 32.6 to 78.0%, depending on the severity of the EMS treatments (Supplementary Table S2). A total of 5,267 M2 families produced M3 seeds, whereas 1,216 M2 families did not produce M3 seeds (Supplementary Table S2).
+
+Flow chart for constructing mutagenized populations. WT Micro-Tom seeds (M0) were treated with mutagen, and the resulting M1 seeds were sown in the greenhouse to harvest M2 seeds from single M1 plants. Ten M2 seeds were sown and grown as an M2 family, and whole M3 seeds were harvested from the same M2 family. In this process, each M2 plant was initially inspected for visible phenotypic alterations, and the M3 homozygous seeds from each mutant were also obtained. Individual mutant images and their phenotypic categories were registered in TOMATOMA.
+Fig. 2Flow chart for constructing mutagenized populations. WT Micro-Tom seeds (M0) were treated with mutagen, and the resulting M1 seeds were sown in the greenhouse to harvest M2 seeds from single M1 plants. Ten M2 seeds were sown and grown as an M2 family, and whole M3 seeds were harvested from the same M2 family. In this process, each M2 plant was initially inspected for visible phenotypic alterations, and the M3 homozygous seeds from each mutant were also obtained. Individual mutant images and their phenotypic categories were registered in TOMATOMA.
+Open in new tabDownload slide
+In the process of propagating M3 seeds, individual M2 plants were initially inspected for visible phenotypic changes (Fig. 2). Overall, 865 individual mutants were isolated. The rates of mutant recovery in the 1.0% EMS treatment were 12.0% (EMS-3), 18.0% (EMS-7) and 17.9% (EMS-8) (Supplementary Table S2). A relatively lower rate of mutant recovery was found in lower EMS treatments (for EMS-1, -2, -4 and -6, the rate was from 5.6 to 13.6%). In contrast, the highest rate of mutant recovery was found for the 1.5% EMS treatment (EMS-10, 30%); the rate of fertility in the M1 plants was 6.5% (Supplementary Table S1), and the rate of germination in the M2 plants was 44.9% (Supplementary Table S2). Such an extremely low rate of fertility was not efficient in the mutagen approach employed here, and thus we concluded that the 1.0% EMS treatment represented the most suitable conditions for Micro-Tom EMS mutagenesis in this study.
+
+M2 plant phenotyping
+The M2 plants were inspected for alteration in visible phenotypes at many developmental stages from seed germination to fruit maturation (Fig. 2). The production of 6,422 lines of M2 seeds by γ-ray irradiation was previously described (Matsukura et al. 2007), and these M2 plants were also phenotyped in this study. All of the visible phenotypes were classified into 15 major phenotypic categories and 48 subcategories (Table 1). The categories used to describe the phenotypes were derived from systematic phenotyping of the mutant populations, as reported previously (Menda et al. 2004). By November 2010, 6,483 and 2,700 M2 families (9,183 M2 families in total) were phenotyped from EMS-mutagenized and γ-ray-irradiated M2 populations, respectively, and 865 and 183 individual mutants were identified (1,048 mutants in total). Of the 865 and 183 analyzed M2 plants, 442 and 107 M2 plants were found to show more than one phenotypic category (pleiotropic) in the EMS-mutagenized and γ-ray-irradiated populations, respectively (Fig. 3). In contrast, 423 EMS-derived and 76 γ-ray-derived M2 plants were found to be non-pleiotropic mutants showing only one phenotypic category. In total, 1,819 phenotypic categories were found in 1,048 mutants (Table 1)
+
+Distribution of phenotypic categories and rate of pleiotropy. (A) Rate of pleiotropy in M2 families of EMS-mutagenized populations. (B) Rate of pleiotropy in M2 families of γ-ray-irradiated populations. The x-axis shows the number of phenotypic categories, and the y-axis shows the number of mutants in the relevant category. The bar for a single phenotypic category indicates the number of mutants showing a single phenotypic category (non-pleiotropic mutants), while the bar for multiple phenotypic categories indicates the number of mutants showing multiple phenotypic categories (pleiotropic mutants).
+Fig. 3Distribution of phenotypic categories and rate of pleiotropy. (A) Rate of pleiotropy in M2 families of EMS-mutagenized populations. (B) Rate of pleiotropy in M2 families of γ-ray-irradiated populations. The x-axis shows the number of phenotypic categories, and the y-axis shows the number of mutants in the relevant category. The bar for a single phenotypic category indicates the number of mutants showing a single phenotypic category (non-pleiotropic mutants), while the bar for multiple phenotypic categories indicates the number of mutants showing multiple phenotypic categories (pleiotropic mutants).
+Open in new tabDownload slide
+Table 1Open in new tabList of phenotypic categories and the number of phenotypes within these classes
+Major category	Subcategory	No. of mutant lines
+EMS-induced mutant line	γ-ray-irradiated mutant line
+Seeds	Germination	0	0
+Seedling lethality	14	9
+Slow germination	11	27
+Plant size	Extremely small	25	22
+Small plant	316	43
+Large plant	55	16
+Plant habit	Internode length	169	26
+Branching	216	10
+Aborted growth	8	4
+Leaf	Leaf width	26	10
+    morphology	Leaf size	14	6
+Leaf texture	49	9
+Other leaf morphology	102	21
+Leaf color	Purple leaf	3	0
+Yellow leaf	0	9
+Yellow-green leaf	80	14
+Dull green/gray leaf	13	2
+Variegation	14	5
+White leaf	4	1
+Other leaf color	39	7
+Flowering	Early	1	0
+    timing	Late	15	2
+Inflorescence	Many flowers	27	8
+    structure	Few flowers	11	2
+Inflorescence structure not formed	2	4
+Flower morphology	Flower homeotic mutation	10	5
+Flower organ size	3	0
+Flower organ width	11	6
+Flower color	White flower	2	0
+Pale yellow flower	21	3
+Strong yellow flower	1	0
+Fruit size	Small fruit	9	10
+Large fruit	12	2
+Fruit	Long fruit	19	3
+    morphology	Rounded fruit	4	0
+Other fruit morphology	72	25
+Fruit color	Yellow fruit	0	0
+Orange fruit	4	2
+Dark red fruit	1	3
+Epidermis	1	9
+Green fruit	0	0
+Fruit	Early ripening	3	0
+    ripening	Late ripening	9	0
+Sterility	Partial sterility	31	11
+Full sterility	46	4
+Disease and	Necrosis	6	0
+    stress	Wilting	0	0
+    response	Other disease response	0	0
+Total		1,479	340
+The number of phenotypic categories scored in M2 plants is shown. Note that the total number of phenotypic categories exceeds the total number of mutants because a mutant sometimes presented more than one phenotype (pleiotropy).
+
+Fig. 4 shows the 15 major categories of defined visible phenotypes and the number of phenotypic categories found in the mutant populations. The most abundant category was plant size (26.8%), followed by plant habits (26.6%), leaf morphology (12.9%) and leaf color (10.3%) in the EMS population (Fig. 4A). In the γ-ray-irradiated population, the most abundant category was plant size (23.8%), followed by leaf morphology (13.5%), plant habits (11.8%), leaf color (11.2%) and seeds (10.6%) (Fig. 4B). In both populations, phenotypic categories associated with the vegetative organs were dominant. In fact, four major categories related to vegetative organs (plant size, plant habit, leaf morphology and leaf color) represented >60% of the total phenotypes. These trends were similarly observed in the EMS-mutagenized populations in the M82 and Red Setter genetic backgrounds (Menda et al. 2004, Mionia et al. 2010). Although the distributions of the phenotypic categories were similar between the EMS-mutagenized and γ-ray-irradiated populations, the frequency of subcategories related to seedling lethality (9/340) and slow germination (27/340) was greater in the γ-ray-irradiated populations than in the EMS-mutagenized populations (14/1,479 and 11/1,479, respectively) (Table 1); thus, the phenotypic category of ‘Seeds’ represented the fifth largest group in the γ-ray-irradiated lines (Fig. 4B).
+
+Classification of visible mutant phenotypes by 15 major phenotypic categories. (A) The 15 major categories and the number of phenotypic categories found in M2 plants of EMS-mutagenized populations. (B) The 15 major categories and the number of phenotypic categories found in M2 plants of γ-ray-irradiated populations.
+Fig. 4Classification of visible mutant phenotypes by 15 major phenotypic categories. (A) The 15 major categories and the number of phenotypic categories found in M2 plants of EMS-mutagenized populations. (B) The 15 major categories and the number of phenotypic categories found in M2 plants of γ-ray-irradiated populations.
+Open in new tabDownload slide
+Mutants similar to previously reported mutants
+Supplementary Fig. S1 presents the appearance of the mutants in which the visible phenotypes were similar to those of previously reported mutants. For example, TOMJPG0114 produced simple leaves with single leaflets, which was similar to entire or indole-3-acetic acid 9 (iaa9) (Wang et al. 2005). TOMJPG0226 had elongated leaflets without serration, similar to lanceolate (Ori et al. 2007). TOMJPG3699 exhibited leaf margins that curled adaxially, similar to flacca (wilty) (Bowman et al. 1984), and TOMJPE6000 showed incomplete Chl deficiency, being white initially and later becoming green, as was observed in ghost (Scolnik et al. 1987). TOMJPG5663 set pink colored fruits, similar to y (Adato et al. 2009, Ballester et al. 2010), and TOMJPE6152 had light colored petals and set orange colored fruits, as in tangerine (Isaacson et al. 2002). Furthermore, TOMJPG4290 exhibited inflorescences with a single flower, similar to uniflora (Dielen et al. 2004), and TOMJPE5414 exhibited inflorescences that were exceptionally large and excessively branched, similar to anantha (Lippman et al. 2008). TOMJPG2941 had greatly condensed, wrinkled, dark green leaves and foreshortened internodes, similar to dumpy (Koka et al. 2000), while TOMJPE1832 set fruits with an increased number of locules, similar to fascinated (Cong et al. 2008). TOMJPG1331 set elongated fruits, similar to sun (Xiao et al. 2008), and TOMJPG2614 set pear-shaped fruits, similar to ovate (Liu et al. 2002). It is possible that these mutants represent new alleles of corresponding mutations, and further analysis will be essential for clarifying this possibility. In this study, we provide evidence that TOMJPG0114 represents a new allele of the entire/iaa9 locus (see below).
+
+Leaf structure mutants
+Supplementary Fig. S2 shows representative mutants related to leaf color and morphology. TOMJPE6398 developed pale green leaves, and TOMJPE6352 and TOMJPE6472 developed variegated leaves. TOMJPE5236 and TOMJPE6397 produced lesions such as pointed leaves. TOMJPE5278 produced wrinkled leaves, and TOMJPE6380 produced abaxially curled, small leaves. Additionally, mutants with large serrated leaves (TOMJPE6586), rounded margin leaves (TOMJPE6653), glossy leaves (TOMJPE8506 and TOMJPG1450) and adaxially curled leaves (TOMJPG2156) were isolated.
+
+Flower mutants
+Supplementary Fig. S3 shows representative mutants related to flower color and morphology. For example, TOMJPE6468 produced red anthers. Additionally, mutants with a short calyx (TOMJPE6371), opened anthers (TOMJPE6425), adaxially curled petals (TOMJPE6505), very small flowers (TOMJPE6558), flowers without petals and anthers (TOMJPE6574), flowers with very narrow petals (TOMJPE6360 and TOMJPE8910) and twisted petals (TOMJPE8534) were isolated.
+
+Fruit mutants
+Fig. 5 shows several representative mutants that were defective in normal fruit development. TOMJPG1949 bore fruits with projections, while TOMPJG1236 and TOMJPG1700 produced fruits with scarred surfaces. TOMJPG2075 and TOMJPE8505 produced chapped fruits, while TOMJPG2082 set fruits with spots on the epidermis. Moreover, mutants with differentiation of flower- or fruit-like structures in succession from the fruits were screened (TOMJPG1572, TOMJPG3104 and TOMJPE8533).
+
+Representative mutants related to fruit color and morphology. (A) TOMJPG1949 set fruits with projections. (B) TOMJPG1236 and (C) TOMJPG1700 produced fruits with scars on their epidermis. (D) TOMJPG2075 and (E) TOMJPE8505 produced chapped fruits. (F) TOMJPG2082 produced fruits with spots on their epidermis. (G) TOMJPG1572, (H) TOMJPG3104 and (I) TOMJPE8533 differentiated in succession from fruits.
+Fig. 5Representative mutants related to fruit color and morphology. (A) TOMJPG1949 set fruits with projections. (B) TOMJPG1236 and (C) TOMJPG1700 produced fruits with scars on their epidermis. (D) TOMJPG2075 and (E) TOMJPE8505 produced chapped fruits. (F) TOMJPG2082 produced fruits with spots on their epidermis. (G) TOMJPG1572, (H) TOMJPG3104 and (I) TOMJPE8533 differentiated in succession from fruits.
+Open in new tabDownload slide
+Mutants related to plant size and habit
+Supplementary Fig. S4 shows representative mutants related to plant size and habits. For example, extremely small mutants were obtained (TOMJPE6517). Additionally, long internode mutants (TOMJPG1890 and TOMJPG2385) and short internode mutants (TOMJPE6646) were found. Furthermore, mutants in which the lateral shoots grow thickly (TOMJPE8949) and mutants in which short and curled trichomes were formed (TOMJPE6574) were isolated. TOMJPG1366, TOMJPG2574 and TOMJPG4093 showed deformed overall plant development.
+
+Phenotype verification
+To test the reproducibility of phenotyping in the M2 plants, we examined whether the mutant phenotypes were inherited in the M3 plants. In this experiment, 202 individual M3 mutant plants were re-evaluated for visible variation. This analysis indicated that 122 of these 202 M3 plants were perfectly reproducible phenotypically, while 17 mutants did not perfectly segregate for the described phenotypes. In contrast, 63 mutants did not show any described phenotypes. Thus, re-examination of the mutant phenotypes seems to be necessary to verify the mutant phenotypes. Moreover, among the mutants in which the M3 phenotype was verified, 18 individual mutants were backcrossed to wild-type (WT) plants, and their genetic segregations in BC1F2 populations were examined. This genetic analysis indicated that the distribution of phenotypic categories in the examined mutants was stably inherited in the BC1F2 plants (Table 2), confirming the successful inheritance of the mutations. Most of the tested mutants appeared to carry monogenic recessive mutations (Table 2), except for TOMJPG2637, which most probably carried a dominant or a semi dominant mutation (Supplementary Table S3).
+
+Table 2Open in new tabMutants carrying stable recessive mutations that were inherited in subsequent generations
+Strain ID	BC1F1 segregationa (WT : mutant)	BC1F2 segregationb (WT : mutant)	χ2 valuec	Genetic traitd
+TOMJPG0114	6 : 0	15 : 4	0.158	Monogenic recessive
+TOMJPE5405	8 : 0	30 : 9	0.077	Monogenic recessive
+TOMPJG0226	10 : 0	112 : 33	0.389	Monogenic recessive
+TOMJPG5789	7 : 0	91 : 26	0.481	Monogenic recessive
+L170	4 : 0	103 : 22	3.651	Monogenic recessive
+TOMJPG1949	4 : 0	17 : 4	0.397	Monogenic recessive
+TOMJPG2547	7 : 0	120 : 35	0.483	Monogenic recessive
+TOMJPG3104	6 : 0	14 : 4	0.074	Monogenic recessive
+L33	2 : 0	25 : 7	0.166	Monogenic recessive
+a The number of progeny exhibiting wild-type (WT) or mutant phenotypes from BC1F1 populations is shown.
+
+b The number of progeny exhibiting WT or mutant phenotypes from BC1F2 populations is shown. ‘WT’ and ‘mutant’ in parentheses indicate WT-like and mutant-like phenotypes, respectively.
+
+c The values of χ2 were calculated from the progeny in the BC1F2 populations.
+
+d Genetic traits were estimated based on the χ2 values.
+
+Next, to examine the level of saturation in our mutant populations, an allelism test was performed. In this analysis, the presence of multiple alleles per locus was investigated by crossing mutants sharing similar phenotypes. We chose five pairs of mutants sharing similar phenotypes and found that these mutant pairs were allelic, since the F1 plants from the mutant pairs showed the same mutant phenotypes (data not shown), confirming the presence of multiple alleles per locus.
+
+Isolation and characterization of new iaa9 mutant alleles
+To confirm further the level of saturation, we investigated whether multiple alleles per locus were recovered from our mutant populations by a forward genetic approach. In this experiment, we isolated two EMS-derived mutants (TOMPJE2811 and TOMJPE5405) and one γ-ray-derived mutant (TOMPJG0114) showing similar phenotypes. These three mutants produced leaves with reduced complexity and only one pair of lobed major lateral leaflets merged with the terminal leaflet, and all of these phenotypes are known to be caused by mutation or down-regulation in the entire/IAA9 locus (Wang et al. 2005, Wang et al. 2009), whereas WT tomato leaves are typically unipinnately compound leaves with several pairs of lobed major lateral leaflets (Supplementary Fig. S1A). IAA9 is a member of the Aux/IAA gene family and acts as a transcriptional repressor of the signaling pathway of the plant hormone auxin (Guilfoyle and Hagen 2007). Members of the Aux/IAA family are subject to proteolysis upon auxin treatment, while they bind to families of auxin response factor (ARF) transcription factors in the absence of auxin treatment, repressing auxin biological responses. Thus, the disappearance of Aux/IAA stimulates ARF binding to downstream genes, promoting auxin responses. Therefore, it is expected that disruption of IAA9 will trigger ubiquitinous auxin responses.
+
+Backcross experiments demonstrated that the genetic traits of TOMJPE5405 and TOMJPE0114 were monogenic recessive mutations (Table 2), which is consistent with the fact that the entire/iaa9 locus is controlled by monogenic recessive mutations (Wang et al. 2005). To examine whether any mutations were present in the IAA9 gene, the whole genomic DNA region containing the IAA9 coding region was amplified by PCR, and their sequences were determined in WT and three mutant plants. Pfam motif analysis (http://pfam.sanger.ac.uk/) revealed that the IAA9 protein has two functional motifs: an IAA protein motif (amino acids 67–341) and an IAA–ARF dimerization motif (amino acids 220–332). IAA9 contains four highly conserved domains (I, II, III and IV). All of these motifs and domains are considered important regions for full activity of the IAA9 protein as a transcription repressor (Wang et al. 2005). To date, two iaa9 mutant alleles (iaa9-1 and iaa9-2) have been isolated in the M82 and Ailsa Craig backgrounds (Zhang et al. 2007).
+
+A single DNA substitution causing a T to A substitution was found at the 237th nucleotide when the translational start was represented as 1 in TOMPJE2811 (iaa9-3, Fig. 6A). This substitution caused the production of a stop codon, resulting in a polypeptide of only 79 amino acids (Fig. 6C). A single DNA substitution causing a G to A substitution was found at the 951st nucleotide position in TOMJPE5405 (iaa9-4). This substitution did not cause an amino acid substitution, but instead produced a truncated mRNA transcript with a 63 bp deletion in the fifth exon, most probably because the substitution was present at an exon–intron junction (Fig. 6B). This truncated mRNA transcript gave rise to a polypeptide with a loss of 21 amino acids in the fifth exon (amino acids 296–317), producing a 328 amino acid polypeptide (Fig. 6C). This deletion caused a partial loss of the IAA–ARF dimerization domain. Additionally, a 32 bp deletion was found in TOMJPG0114 (iaa9-5) at the 133rd nucleotide position, causing a frameshift and producing a stop codon at the 153rd nucleotide position, resulting in the loss of 305 functional amino acids and producing seven truncated polypeptides. These results suggested that the functional activity of the IAA9 was modified by DNA substitution or deletion in these mutants.
+
+Isolation and characterization of new iaa9 mutant alleles. (A) Genomic structure of IAA9, and the mutations found in three mutant alleles (iaa9-3, iaa9-4 and iaa9-5). Gray boxes indicate exons, and regions between the boxes indicate introns. The location and nature of mutations and are shown by arrows. A bent arrow indicates the translational start. (B) Structure of IAA9 mRNA transcripts in the WT and the iaa9-4 mutant. Numbers represent numbering of exons. (C) IAA9 protein structure in the WT and three iaa9 mutants. Numbers within exons represent the length of polypeptides. The iaa9-5 protein is truncated by seven amino acids, resulting in a 51 polypeptide length. (D) Leaf morphology of the WT and three iaa9 mutants in a 30-day-old plant. Bar = 10 cm. (E) Rate of parthenocarpic fruit production in the WT and three iaa9 mutants after emasculation. A t-test was used to determine a statistically significant difference. Different lower case letters represent different classes. The standard error (SE) is shown. A pollinated WT plant is shown [WT(p)] as a control. n = 10. (F) Time course analysis of parthenocarpic fruit development in three iaa9 mutants. As a control, a pollinated WT plant is shown. DAE, day after emasculation.
+Fig. 6Isolation and characterization of new iaa9 mutant alleles. (A) Genomic structure of IAA9, and the mutations found in three mutant alleles (iaa9-3, iaa9-4 and iaa9-5). Gray boxes indicate exons, and regions between the boxes indicate introns. The location and nature of mutations and are shown by arrows. A bent arrow indicates the translational start. (B) Structure of IAA9 mRNA transcripts in the WT and the iaa9-4 mutant. Numbers represent numbering of exons. (C) IAA9 protein structure in the WT and three iaa9 mutants. Numbers within exons represent the length of polypeptides. The iaa9-5 protein is truncated by seven amino acids, resulting in a 51 polypeptide length. (D) Leaf morphology of the WT and three iaa9 mutants in a 30-day-old plant. Bar = 10 cm. (E) Rate of parthenocarpic fruit production in the WT and three iaa9 mutants after emasculation. A t-test was used to determine a statistically significant difference. Different lower case letters represent different classes. The standard error (SE) is shown. A pollinated WT plant is shown [WT(p)] as a control. n = 10. (F) Time course analysis of parthenocarpic fruit development in three iaa9 mutants. As a control, a pollinated WT plant is shown. DAE, day after emasculation.
+Open in new tabDownload slide
+Reduced mRNA accumulation of the IAA9 gene triggers fruit development prior to pollination, or parthenocarpy, and the decreased level of IAA9 mRNA accumulation is likely to be associated with the increased level of severity of leaf morphology and parthenocarpic phenotypes (Wang et al. 2005). The severity of leaf morphology was unchanged among the three observed mutant alleles (Fig. 6D). To examine the levels of parthenocarpy, an emasculation experiment was performed. In this experiment, the number of flowers that gave rise to fruit setting was calculated 10 days after emasculation (10 DAE). Almost none of the emasculated WT flowers exhibited fruit formation (3.3 ± 0.7%), whereas most of the pollinated WT flowers [WT(p)] produced fruits (90.0 ± 4.7%) (Fig. 6E). Similar to IAA9 antisense lines reported previously (Wang et al. 2005), the three mutant alleles developed fruits from emasculated flowers. Higher rates of parthenocarpic fruit production were seen in iaa9-3 (70.0 ± 4.7 %) and iaa9-5 (63.3 ± 5.4 %) than in iaa9-4 (40.0 ± 4.7 %), suggesting that protein functional activity varied for the different alleles. Additionally, the size of fruit development at 10 DAE was smaller in iaa9-4 compared with iaa9-3, iaa9-5 and WT(p) (Supplementary Fig. S5A). As shown in Supplementary Fig. S5B–D, the length and width of fruit that had developed at 10 DAE were significantly smaller in iaa9-4 than in iaa9-3, iaa9-5 and WT(p). These results suggested that iaa9-4 was a weaker mutant allele than iaa9-3 and iaa9-5. The delayed fruit expansion in the emasculated iaa9-4 plants resulted in delayed fruit maturation: parthenocarpic fruit ripening took >42 DAE in WT(p), iaa9-3 and iaa9-5 mutant plants, whereas it took >50 DAE in the iaa9-4 mutant (Fig. 6F). To compare the severity of phenotypes in ripe red fruits, the length and width of ripe red parthenocarpic fruits were determined. As shown in Supplementary Fig. S6A–C, there was no significant difference in size among the WT(p) and mutant plants. Additionally, parthenocarpic fruit weight was similar in the WT(p) and in the mutants (Supplementary Fig. S6D). However, a significant difference was found in the thickness of the pericarp: the pericarp thickness of parthenocarpic fruits in iaa9-3, iaa9-4 and iaa9-5 was 4.0 ± 0.1, 3.8 ± 0.1 and 3.9 ± 0.1 mm, respectively, while in the WT(p), it was 2.9 ± 0.1 mm, indicating that disruption of the IAA9 gene influenced pericarp development (Supplementary Fig. S6E, F). These results suggested that IAA9 was essential for regulating the precise timing triggering early fruit development, while the other factors probably determined final fruit size and weight. IAA9 was also important for normal pericarp development, although the thickness was not dependent on the severity of mutant alleles.
+
+Tomato mutant database TOMATOMA
+All of the visible phenotyping data, mutant images and other cultivation information (germination rate, mutation rate, first flowering date, first fruit harvesting date, flower to fruit period and total harvested seeds) were registered in a relational database, TOMATOMA (Fig. 7; http://tomatoma.nbrp.jp/index.jsp). This database can be searched according to strain ID or freely searched according to keywords from the detailed description of phenotypes, 15 major phenotypic categories and 48 subcategories (Fig. 7A). Detailed data, including the germination ratio, rate of mutant appearance in the M2 family and first flowering date, as well as photographs of the mutants, are shown for the page of each mutant (Fig. 7C). This database is publicly accessible through its web interface, and the mutant seeds are being distributed upon completion of an MTA contract between users and the University of Tsukuba. In addition to the mutant collections, TOMATOMA provides the tomato varieties and wild tomato relatives that are commonly used for experimental studies (Supplementary Table S5). Moreover, TOMATOMA provides M3 mutagenized seeds (up to 10 seeds per M3 family), and currently (November 2010) 2,236 EMS-mutagenized and 2,700 γ-ray-irradiated lines are available upon request. The populations of M3 seeds are also useful for conditional screening for mutants that survive under a wide range of different environmental conditions.
+
+Web pages in the database of the mutant archive TOMATOMA. (A) A screenshot of the TOMATOMA database. Individual mutants are searchable in silico from 48 subcategories of defined visible phenotypes. (B) A list of mutants that are selected by specific subcategories. All mutants registered in TOMATOMA appear on the screen. (C) An example of detailed information for a certain mutant strain. Mutant phenotypes, germination rate, flowering time, source of mutagen, images and ontology ID are shown.
+Fig. 7Web pages in the database of the mutant archive TOMATOMA. (A) A screenshot of the TOMATOMA database. Individual mutants are searchable in silico from 48 subcategories of defined visible phenotypes. (B) A list of mutants that are selected by specific subcategories. All mutants registered in TOMATOMA appear on the screen. (C) An example of detailed information for a certain mutant strain. Mutant phenotypes, germination rate, flowering time, source of mutagen, images and ontology ID are shown.
+Open in new tabDownload slide
+Discussion
+For optimization of EMS mutagenesis, it is important to assess parameters related to the efficient generation of mutant collections. To examine this, Micro-Tom seeds were treated with different EMS concentrations (0.3, 0.5, 0.7, 1.0 and 1.5%) and for different incubation times (12, 16 and 48 h), and the rates of germination, fertility and mutant recovery were calculated (Supplementary Tables S1, S2). Using a low EMS concentration with a long incubation time did not yield a significantly higher rate of mutant recovery (EMS-6, 11.5%) compared with the same EMS concentration with a shorter incubation time (EMS-4, 13.6%; EMS-5, 15.0%), suggesting that incubation duration was not the critical parameter. However, the highest EMS concentration used (1.5%) yielded the highest mutant recovery rate (EMS-10, 30%), while an extremely low germination rate was a bottleneck in this condition (Supplementary Tables S1, S2). For the 1.0% EMS concentration, a high rate of mutant recovery was reproducibly observed (i.e. EMS-7, 18.0%; and EMS-8, 17.9%), representing valid conditions for the efficient production of mutant populations. Consistently, 1.0% EMS treatment was regarded as better than 0.7% EMS treatment in terms of providing efficient mutant isolation from the mutagenesis populations in the Red Setter (Minoia et al. 2010). Additionally, the rate of mutant recovery was apparently higher for EMS mutagenesis than for γ-ray irradiation (Fig. 3, Table 1), which could be due in part to the fact that γ-ray irradiation often causes large DNA deletions, resulting in increased infertility, gametophytic lethality and decreased germination capacity (Morita et al. 2009) (Fig. 4, Table 1). Thus, it is possible that the majority of mutants with severe DNA deletions did not survive.
+
+In this study, comprehensive mutant populations were developed in the genetic background Micro-Tom. Construction of the mutant populations took >7 years, during which we successively inspected plants for alteration of visible mutant phenotypes based on 15 major phenotypic categories and 48 subcategories (Table 1, Supplementary Tables S1, S2). To our knowledge, TOMATOMA is the third interactive database to become accessible to the scientific community, providing individual mutant seeds in the same genetic background, following the development of ‘Genes that Make Tomatoes’ in M82 and ‘LycoTILL’ in Red Setter (Menda et al. 2004, Minoia et al. 2010). Although the total number of mutants (1,048 mutants) isolated from our mutagenesis approach was less than in the previously developed populations in the M82 genetic background (3,417 mutants; Menda et al., 2004), our mutant resources could be more manageable because the Micro-Tom has many advantages in its cultivation and biological features (i.e. rapid life cycle and small size; Fig. 1).
+
+The population size necessary for conducting tomato saturation mutagenesis is estimated to be in the range of 103 individuals in the case of EMS or fast-neutron irradiation (Emmanuel and Levy 2002), suggesting that our populations were nearly saturated (Table 1, Supplementary Table S2). Additionally, allelism tests and the forward genetics approach demonstrated the presence of multiple alleles per locus (Fig. 6). The identification of multiple mutant alleles facilitates gene function analysis, since allelic series often show a wide range of phenotypes associated with a single gene, making it possible to dissect the correlation between gene functional activity and given phenotypes. For example, it is probable that functional IAA9 protein activity is correlated with the degree of parthenocarpic phenotypes (Fig. 6).
+
+The reproducibility of phenotypic categories was also confirmed by performing visible phenotyping of the M3 plants, and it was found that 122 of 202 M3 plants were phenotypically reproducible. Furthermore, 18 mutants were backcrossed to WT plants, and their successful phenotypic inheritance in BC1F2 populations was confirmed (Table 2), indicating that these mutants carried stable mutations. Additionally, nine other mutants probably carried recessive mutations (Supplementary Table S3). The confirmed genetic quality of these mutations indicates that they are sufficiently stable to be useful for functional analysis.
+
+While the isolation of candidate genes from Micro-Tom mutants by a forward genetics approach could become a main subject in future studies, intraspecific and interspecific crosses and resulting F1 hybrid production are possible between Micro-Tom and most tomato cultivated varieties, as well as many members of the Solanum genus, including S. pimpinellifolium and S. pennellii, both of whose draft sequences are available at SGN. Additionally, high-density molecular maps in tomatoes have been generated based on the F2 progeny of the cultivated tomato (S. lycopersicum) and many of its wild relatives (Foolad 2007), all of which are available at SGN. Furthermore, introgression line (IL) populations in which S. lycopersicum is used as the core background carrying a single introgressed chromosome segment from S. pennellii have been constructed (Eshed and Zamir 1994). This information and these ILs are useful for constructing F2 mapping populations for fine-mapping of mutants, since they provide a nearly isogenic, highly polymorphic resource for mutants (Menda et al. 2004). These ILs, in addition to S. pimpinellifolium and S. pennellii, are available at TGRC or TOMATOMA (Supplementary Table S4).
+
+While positional cloning requires comprehensive DNA markers that are polymorphic between parental plants, large numbers of genetic markers have been developed based on the F2 progeny of interspecific crosses between S. lycopersicum and its wild relatives. SGN presents information about these DNA markers, including restriction fragment length polymorphism (RFLPs), simple sequence repeats (SSRs), cleavage amplified polymorphic sequence (CAPS), amplified fragment length polymorphism (AFLP), random amplified polymorphic DNA (RAPD), sequence characterized amplified region (SCAR) and single nucleotide polymorphism (SNP) data. Most of these markers have been mapped on the linkage map Tomato Expen-2000, which is currently composed of a total of 2,604 DNA markers, which are freely available at SGN (Fulton et al. 2002). Not only an interspecific but also an intraspecific genetic map has been reported for S. lycopersicum based on AFLP, RFLP and RAPD markers (Saliba-Colombani et al. 2000). Recently, an intraspecific genetic linkage map was constructed derived from crosses between Micro-Tom and either Ailsa Craig or M82, based on the SNP markers discovered from EST sequences (Shirasawa et al. 2010). It is likely that >600 SNP markers can be utilized for genotyping analysis in F2 progeny derived from Micro-Tom and other cultivated varieties, including Ailsa Craig or M82, and these genetic maps appear to cover most regions of the tomato genome, providing considerable possibilities for performing positional cloning.
+
+To explore the possible use of mutagenized lines through a reverse genetics approach, we are developing a TILLING platform using the EMS-mutagenized populations generated in this study. By constructing systematic platforms combining EMS-mutagenized resources and TILLING, we expect to obtain desirable mutants through large-scale screening, as well as multiple alleles per locus, representing ideal resources for examining the effects of mutations on specific traits in conjunction with the progress of the tomato sequencing project. For improving the quality and yield of tomatoes, a deep understanding of the molecular bases underlying these complex traits is necessary. This challenge requires comprehensive and genetically high-quality populations of mutants as well as the availability of these resources at the research-community level to promote functional analyses of tomatoes. Therefore, our Micro-Tom mutant collections, which are available to the community, could play considerable roles in elucidating key mechanisms controlling important tomato traits.
+
+Materials and Methods
+Production of mutant collections
+A flow chart showing the process from mutagenesis to the establishment of mutant lines is shown in Fig. 2 and Supplementary Tables S1 and S2. EMS treatments carried out from 2004 to 2006 and γ-ray irradiation were described previously (Matsukura et al. 2007, Watanabe et al. 2007). In 2008 and 2009, three different doses (0.7, 1.0 and 1.5%) of EMS (Sigma-Aldrich) were applied to Micro-Tom seeds. For the EMS treatments, Micro-Tom seeds (M0 seeds) were soaked in distilled water for 8 h at room temperature, followed by incubation in 100 ml of a fleshy prepared EMS solution (for each batch of 1,000–3,000 seeds) under gentle stirring for 16 h. The EMS solution was removed, and the mutagenized seeds (M1 seeds) were washed by gentle shaking in 100 ml of distilled water for 4 h. This washing step was repeated three times. The M1 seeds were sown, and M1 plants were cultivated in a greenhouse to produce the M2 seeds. Then, approximately 10 M2 plants from the same M1 plant were grown in nursery pots (145 cm3 per pot) as a family, and whole M3 offspring seeds were harvested from the same family in bulk. Additionally, self-fertilized seeds were harvested from each independent mutant.
+
+Each M2 plant was phenotyped morphologically according to 15 major categories and 48 subcategories defined previously (Menda et al. 2004). For each mutant, their visible phenotypes, images, germination rate, flowering time, source of mutagen and ontology were recorded in the database. Although all the mutant seeds that are listed in TOMATOMA will be distributed upon request, we may stop providing mutant lines that have a very limited number of seeds. These mutant seeds will again become available once sufficient numbers of seeds are produced.
+
+Sequencing analysis
+Genomic DNA was extracted from 3-week-old seedling plants using a DNeasy Mini extraction kit (QIAGEN). The whole IAA9 coding region was amplified using IAA9F and IAA9R primers (Supplementary Table S5), and PCR products were purified using a gel DNA extraction kit (QIAGEN). Subsequently, the genomic sequence of IAA9 was determined using extracted DNA and gene-specific primers, as listed in Supplementary Table S5.
+
+Total RNA was extracted from mature leaves of 30-day-old plants using an RNeasy Mini kit (QIAGEN). Genomic DNA contamination was removed using the RNase-free DNase Set (QIAGEN). cDNA was generated from 1 μg of total RNA using the SuperScript III First-Strand Synthesis System (Invitrogen). cDNA was then used as a template for reverse tanscription–PCR (RT–PCR) with specific primers to amplify the IAA9 coding region (Supplementary Table S5).
+
+Emasculation assay
+Seeds of WT Micro-Tom, and M3 homozygous seeds of TOMJPE2811 (iaa9-3), TOMJPE5405 (iaa9-4) and TOMJPG0114 (iaa9-5) were sown on wet filter paper under constant light for 48 h at 25°C to stimulate seed germination. Then 7-day-old seedlings were transplanted into soil and grown under conditions of 16 h light/8 h dark at 25°C. Emasculation was performed using 1-month-old plants before day 1 of flowering. All anthers were removed from closed flowers using forceps, and all plants were grown under the same conditions as described above. The number of fruits that developed from emasculated flowers was counted at 10 DAE. The time course of parthenocarpic fruit development was also collected as indicated in Fig. 6. As a control, open flowers of WT plants were vibrated for 10 s per day for 3 d to stimulate pollination.
+
+Database system
+TOMATOMA is a PostgreSQL-driven relational database. The web application is written using Java and Jsp. The software and the database are hosted on the Linux server [3 GHz Intel (R) Xeno (R) CPU 5160, Redhat Linux ES4].
+
+Funding
+This work is supported by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT) [part of ‘The National BioResource Project’ (ADD20035)].
+
+Acknowledgments
+We thank T. Watanabe and Y. Takahashi at the National Institute of Genetics for assisting in the construction of the TOMATOMA database. We also thank all the people who helped in developing the mutant populations. We are grateful to Tsutomu Arie for providing several lines of S. lycopersicum, S. peruvianum, S. chilense and S. pimpinellifolium. We are also grateful to Dani Zamir for providing the ILs. We would like to thank all members of our lab for fruitful discussion on this project.
+
+Abbreviations
+ 
+ARF
+auxin response factor
+
+ 
+DAE
+days after emasculation
+
+ 
+EMS
+ethylmethane sulfonate
+
+ 
+EST
+expressed sequence tag
+
+ 
+IL
+introgression line
+
+ 
+LD
+lethal dose
+
+ 
+MTA
+material transfer agreement
+
+ 
+NBRP
+National BioResource Project
+
+ 
+SGN
+Solanaceae genomics network
+
+ 
+SNP
+single nucleotide polymorphism
+
+ 
+TILLING
+targeting induced local lesions in genomes
+
+ 
+TGRC
+Tomato Genetics Resource Center
+
+ 
+WT
+wild type.
+
+References
+Adato A., Mandel T., Mintz-Oron S., Venger I., Levy D., Yativ M., et al., Fruit-surface flavonoid accumulation in tomato is controlled by a SlMYB12-regulated transcriptional network, PLoS Genet, 2009, vol. 5 pg. e1000777
+Google ScholarCrossrefPubMedWorldCat 
+Aoki K., Yano K., Suzuki A., Kawamura S., Sakurai N., Suda K., et al., Large-scale analysis of full-length cDNAs from the tomato (Solanum lycopersicum) cultivar Micro-Tom, a reference system for the Solanaceae genomics, BMC Genomics, 2010, vol. 11 pg. 210
+Google ScholarCrossrefPubMedWorldCat 
+Ballester A.R., Molthoff J., de Vos R., Hekkert B.L., Orzaez D., Fernández-Moreno J.P., et al., Biochemical and molecular analysis of pink tomatoes: deregulated expression of the gene encoding transcription factor SlMYB12 leads to pink tomato fruit color, Plant Physiol., 2010, vol. 152 (pg. 71-84)
+Google ScholarCrossrefPubMedWorldCat 
+Bombarely A., Menda N., Tecle I.Y., Buels R.M., Strickler S., Fischer-York T., et al., The Sol Genomics Network (solgenomics.net): growing tomatoes using Perl, Nucleic Acids Res., 2011, vol. 39 (pg. D1149-D1155)
+Google ScholarCrossrefPubMedWorldCat 
+Bowman W.R., Linforth R.S., Rossall S., Taylor I.B.., Accumulation of an ABA analogue in the wilty tomato mutant, flacca, Biochem. Genet., 1984, vol. 22 (pg. 369-378)
+Google ScholarCrossrefPubMedWorldCat 
+Carrari F., Fernie A.R.., Metabolic regulation underlying tomato fruit development, J. Exp. Bot., 2006, vol. 57 (pg. 1883-1897)
+Google ScholarCrossrefPubMedWorldCat 
+Colbert T., Till B.J., Tompa R., Reynolds S., Steine M.N., Yeung A.T., et al., High-throughput screening for induced point mutations, Plant Physiol., 2001, vol. 126 (pg. 480-484)
+Google ScholarCrossrefPubMedWorldCat 
+Cong B., Barrero L.S., Tanksley S.D.., Regulatory change in YABBY-like transcription factor led to evolution of extreme fruit size during tomato domestication, Nat. Genet., 2008, vol. 40 (pg. 800-804)
+Google ScholarCrossrefPubMedWorldCat 
+Dan Y., Yan H., Munyikwa T., Dong J., Zhang Y., Armstrong C.L.., MicroTom—a high-throughput model transformation system for functional genomics, Plant Cell Rep., 2006, vol. 25 (pg. 432-441)
+Google ScholarCrossrefPubMedWorldCat 
+David-Schwartz R., Badani H., Smadar W., Levy A.A., Galili G., Kapulnik Y.., Identification of a novel genetically controlled step in mycorrhizal colonization: plant resistance to infection by fungal spores but not extra-radical hyphae, Plant J., 2001, vol. 27 (pg. 561-569)
+Google ScholarCrossrefPubMedWorldCat 
+Dielen V., Quinet M., Chao J., Batoko H., Havelange A., Kinet J.M.., UNIFLORA, a pivotal gene that regulates floral transition and meristem identity in tomato (Lycopersicon esculentum), New Phytol., 2004, vol. 161 (pg. 393-400)
+Google ScholarCrossrefWorldCat 
+Egea I., Barsan C., Bian W., Purgatto E., Latche A., Chervin C., et al., Chromoplast differentiation: current status and perspectives, Plant Cell Physiol., 2010, vol. 51 (pg. 1601-1611)
+Google ScholarCrossrefPubMedWorldCat 
+Emmanuel E., Levy A.A.., Tomato mutants as tools for functional genomics, Curr. Opin. Plant Biol., 2002, vol. 5 (pg. 112-117)
+Google ScholarCrossrefPubMedWorldCat 
+Eshed Y., Zamir D.., A genomic library of Lycopersicon pennellii in L. esculentum: a tool for fine mapping of genes, Euphytica, 1994, vol. 88 (pg. 891-897)
+Google ScholarWorldCat 
+Foolad M.R.., Genome mapping and molecular breeding of tomato, Int. J. Plant Genomics, 2007, vol. 2007 pg. 64358
+Google ScholarPubMedWorldCat 
+Fulton T.M., Van der Hoeven R., Eannetta N.T., Tanksley S.D.., Identification, analysis, and utilization of conserved ortholog set markers for comparative genomics in higher plants, Plant Cell, 2002, vol. 14 (pg. 1457-1467)
+Google ScholarCrossrefPubMedWorldCat 
+Gady A.L., Hermans F.W., Van de Wal M.H., van Loo E.N., Visser R.G., Bachem C.W.., Implementation of two high through-put techniques in a novel application: detecting point mutations in large EMS mutated plant populations, Plant Methods, 2009, vol. 5 pg. 13
+Google ScholarCrossrefPubMedWorldCat 
+Guilfoyle T.J., Hagen G.., Auxin response factors, Curr. Opin. Plant Biol., 2007, vol. 10 (pg. 453-460)
+Google ScholarCrossrefPubMedWorldCat 
+Hille J., Koornneef M., Ramanna M.S., Zabel P.., Tomato: a crop species amenable to improvement by cellular and molecular methods, Euphytica, 1989, vol. 42 (pg. 1-23)
+Google ScholarCrossrefWorldCat 
+Iijima Y., Nakamura Y., Ogata Y., Tanaka K., Sakurai N., Suda K., et al., Metabolite annotations based on the integration of mass spectral information, Plant J., 2008, vol. 54 (pg. 949-962)
+Google ScholarCrossrefPubMedWorldCat 
+Isaacson T., Ronen G., Zamir D., Hirschberg J.., Cloning of tangerine from tomato reveals a carotenoid isomerase essential for the production of beta-carotene and xanthophylls in plants, Plant Cell, 2002, vol. 14 (pg. 333-342)
+Google ScholarCrossrefPubMedWorldCat 
+Koka C.V., Cerny R.E., Gardner R.G., Noguchi T., Fujioka S., Takatsuto S., et al., A putative role for the tomato genes DUMPY and CURL-3 in brassinosteroid biosynthesis and response, Plant Physiol., 2000, vol. 122 (pg. 85-98)
+Google ScholarCrossrefPubMedWorldCat 
+Kuromori T., Takahashi S., Kondou Y., Shinozaki K., Matsui M.., Phenome analysis in plant species using loss-of-function and gain-of-function mutants, Plant Cell Physiol., 2009, vol. 50 (pg. 1215-1231)
+Google ScholarCrossrefPubMedWorldCat 
+Lippman Z.B., Cohen O., Alvarez J.P., Abu-Abied M., Pekker I., Paran I., et al., The making of a compound inflorescence in tomato and related nightshades, PLoS Biol, 2008, vol. 6 pg. e288
+Google ScholarCrossrefPubMedWorldCat 
+Liu J., Van Eck J., Cong B., Tanksley S.D.., A new class of regulatory genes underlying the cause of pear-shaped tomato fruit, Proc. Natl Acad. Sci. USA, 2002, vol. 99 (pg. 13302-13306)
+Google ScholarCrossrefWorldCat 
+Mathews H., Clendennen S.K., Caldwell C.G., Liu X.L., Connors K., Matheis N., et al., Activation tagging in tomato identifies a transcriptional regulator of anthocyanin biosynthesis, modification, and transport, Plant Cell, 2003, vol. 15 (pg. 1689-1703)
+Google ScholarCrossrefPubMedWorldCat 
+Matsui H., Yamazaki M., Kishi-Kaboshi M., Takahashi A., Hirochika H.., AGC kinase OsOxi1 positively regulates basal resistance through suppression of OsPti1a-mediated negative regulation, Plant Cell Physiol., 2010, vol. 51 (pg. 1731-1744)
+Google ScholarCrossrefPubMedWorldCat 
+Matsukura C., Aoki K., Fukuda N., Mizoguchi T., Asamizu E., Saito T., et al., Comprehensive resources for tomato functional genomics based on the miniature model tomato micro-tom, Curr. Genomics, 2007, vol. 9 (pg. 436-443)
+Google ScholarCrossrefWorldCat 
+McCallum C.M., Comai L., Greene E.A., Henikoff S.., Targeted screening for induced mutations, Nat. Biotechnol., 2000, vol. 18 (pg. 455-457)
+Google ScholarCrossrefPubMedWorldCat 
+McCallum C.M., Comai L., Greene E.A., Henikoff S.., Targeting induced local lesions in genomes (TILLING) for plant functional genomics, Plant Physiol., 2000, vol. 123 (pg. 439-442)
+Google ScholarCrossrefPubMedWorldCat 
+Meissner R., Chague V., Zhu Q., Emmanuel E., Elkind Y., Levy A.A.., Technical advance: a high throughput system for transposon tagging and promoter trapping in tomato, Plant J., 2000, vol. 22 (pg. 265-274)
+Google ScholarCrossrefPubMedWorldCat 
+Meissner R., Jacobson Y., Melmed S., Levyatuv S., Shalev G., Ashri A., et al., A new model system for tomato genetics, Plant J., 1997, vol. 12 (pg. 1465-1472)
+Google ScholarCrossrefWorldCat 
+Menda N., Semel Y., Peled D., Eshed Y., Zamir D.., In silico screening of a saturated mutation library of tomato, Plant J., 2004, vol. 38 (pg. 861-872)
+Google ScholarCrossrefPubMedWorldCat 
+Minoia S., Petrozza A., D'Onofrio O., Piron F., Mosca G., Sozio G., et al., A new mutant genetic resource for tomato crop improvement by TILLING technology, BMC Res. Notes, 2010, vol. 3 pg. 69
+Google ScholarCrossrefPubMedWorldCat 
+Mochida K., Shinozaki K.., Genomics and bioinformatics resources for crop improvement, Plant Cell Physiol., 2010, vol. 51 (pg. 497-523)
+Google ScholarCrossrefPubMedWorldCat 
+Morita R., Kusaba M., Iida S., Yamaguchi H., Nishio T., Nishimura M.., Molecular characterization of mutations induced by gamma irradiation in rice, Genes Genet. Syst., 2009, vol. 84 (pg. 361-370)
+Google ScholarCrossrefPubMedWorldCat 
+Mueller L.A., Lankhorst R.K., Tanksley S.D., Giovannoni J.J., White R., Vrebalov J.., A snapshot of the emerging tomato genome sequence, Plant Genome, 2009, vol. 2 (pg. 78-92)
+Google ScholarCrossrefWorldCat 
+Mueller L.A., Solow T.H., Taylor N., Skwarecki B., Buels R., Binns J., et al., The SOL Genomics Network: a comparative resource for Solanaceae biology and beyond, Plant Physiol., 2005, vol. 138 (pg. 1310-1317)
+Google ScholarCrossrefPubMedWorldCat 
+Mueller L.A., Tanksley S.D., Giovannoni J.J., van Eck J., Stack S., Choi D., et al., The Tomato Sequencing Project, the first cornerstone of the International Solanaceae Project (SOL), Comp. Funct. Genomics, 2005, vol. 6 (pg. 153-158)
+Google ScholarCrossrefPubMedWorldCat 
+Ori N., Cohen A.R., Etzioni A., Brand A., Yanai O., Shleizer S., et al., Regulation of LANCEOLATE by miR319 is required for compound-leaf development in tomato, Nat. Genet., 2007, vol. 39 (pg. 787-791)
+Google ScholarCrossrefPubMedWorldCat 
+Ozaki S., Ogata Y., Suda K., Kurabayashi A., Suzuki T., Yamamoto N., et al., Coexpression analysis of tomato genes and experimental verification of coordinated expression of genes found in a functionally enriched coexpression module, DNA Res., 2010, vol. 17 (pg. 105-116)
+Google ScholarCrossrefPubMedWorldCat 
+Pineda B., Gimenez-Caminero E., Garcia-Sogo B., Anton M.T., Atares A., Capel J., et al., Genetic and physiological characterization of the arlequin insertional mutant reveals a key regulator of reproductive development in tomato, Plant Cell Physiol., 2010, vol. 51 (pg. 435-447)
+Google ScholarCrossrefPubMedWorldCat 
+Rellan-Alvarez R., Giner-Martinez-Sierra J., Orduna J., Orera I., Rodriguez-Castrillon J.A., Garcia-Alonso J.I., et al., Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport, Plant Cell Physiol., 2010, vol. 51 (pg. 91-102)
+Google ScholarCrossrefPubMedWorldCat 
+Rick C.M., Yoder J.I.., Classical and molecular genetics of tomato: highlights and perspectives, Annu. Rev. Genet., 1988, vol. 22 (pg. 281-300)
+Google ScholarCrossrefPubMedWorldCat 
+Rivero R.M., Gimeno J., Van Deynze A., Walia H., Blumwald E.., Enhanced cytokinin synthesis in tobacco plants expressing PSARK::IPT prevents the degradation of photosynthetic protein complexes during drought, Plant Cell Physiol., 2010, vol. 51 (pg. 1929-1941)
+Google ScholarCrossrefPubMedWorldCat 
+Saliba-Colombani V., Causse M., Gervais L., Philouze J.., Efficiency of RFLP, RAPD, and AFLP markers for the construction of an intraspecific map of the tomato genome, Genome, 2000, vol. 43 (pg. 29-40)
+Google ScholarCrossrefPubMedWorldCat 
+Scolnik P.A., Hinton P., Greenblatt I.M., Giuliano G., Delanoy M.R., Spector D.L., et al., Somatic instability of carotenoid biosynthesis in the tomato ghost mutant and its effect on plastid development, Planta, 1987, vol. 17 (pg. 11-18)
+Google ScholarCrossrefWorldCat 
+Scott J.W., Harbaugh B.K.., Micro-Tom. A miniature dwarf tomato. Agricultural Experiment Station, Institute of Food and Agricultural Sciences, University of Florida Circular, 1989, vol. S370 (pg. 1-6)
+Google ScholarWorldCat 
+Shirasawa K., Isobe S., Hirakawa H., Asamizu E., Fukuoka H., Just D., et al., SNP discovery and linkage map construction in cultivated tomato, DNA Res., 2010, vol. 17 (pg. 381-391)
+Google ScholarCrossrefPubMedWorldCat 
+Sun H.J., Uchii S., Watanabe S., Ezura H.., A highly efficient transformation protocol for Micro-Tom, a model cultivar for tomato functional genomics, Plant Cell Physiol., 2006, vol. 47 (pg. 426-431)
+Google ScholarCrossrefPubMedWorldCat 
+Sun W., Xu X., Zhu H., Liu A., Liu L., Li J., et al., Comparative transcriptomic profiling of a salt-tolerant wild tomato species and a salt-sensitive tomato cultivar, Plant Cell Physiol., 2010, vol. 51 (pg. 997-1006)
+Google ScholarCrossrefPubMedWorldCat 
+Tanksley S.D.., The genetic, developmental, and molecular bases of fruit size and shape variation in tomato, Plant Cell, 2004, vol. 16 Suppl(pg. S181-S189)
+Google ScholarCrossrefPubMedWorldCat 
+Uehara T., Sugiyama S., Matsuura H., Arie T., Masuta C.., Resistant and susceptible responses in tomato to cyst nematode are differentially regulated by salicylic acid, Plant Cell Physiol., 2010, vol. 51 (pg. 1524-1536)
+Google ScholarCrossrefPubMedWorldCat 
+Wang H., Jones B., Li Z., Frasse P., Delalande C., Regad F., et al., The tomato Aux/IAA transcription factor IAA9 is involved in fruit development and leaf morphogenesis, Plant Cell, 2005, vol. 17 (pg. 2676-2692)
+Google ScholarCrossrefPubMedWorldCat 
+Wang H., Schauer N., Usadel B., Frasse P., Zouine M., Hernould M., et al., Regulatory features underlying pollination-dependent and -independent tomato fruit set revealed by transcript and primary metabolite profiling, Plant Cell, 2009, vol. 21 (pg. 1428-1452)
+Google ScholarCrossrefPubMedWorldCat 
+Watanabe S., Mizoguchi T., Aoki K., Kubo Y., Mori H., Imanishi S., et al., Ethylmethanesulfonate (EMS) mutagenesis of Solanum lycopersicum cv. Micro-Tom for large-scale mutant screens, Plant Biotechnol., 2007, vol. 24 (pg. 33-38)
+Google ScholarCrossrefWorldCat 
+Xiao H., Jiang N., Schaffner E., Stockinger E.J., van der Knaap E.., A retrotransposon-mediated gene duplication underlies morphological variation of tomato fruit, Science, 2008, vol. 319 (pg. 1527-1530)
+Google ScholarCrossrefPubMedWorldCat 
+Yamazaki Y., Akashi R., Banno Y., Endo T., Ezura H., Fukami-Kobayashi. K., et al., NBRP databases: databases of biological resources in Japan, Nucleic Acids Res., 2010, vol. 38 (pg. D26-D32)
+Google ScholarCrossrefPubMedWorldCat 
+Yin Y.G., Tominaga T., Iijima Y., Aoki K., Shibata D., Ashihara H., et al., Metabolic alterations in organic acids and gamma-aminobutyric acid in developing tomato (Solanum lycopersicum L.) fruits, Plant Cell Physiol., 2010, vol. 51 (pg. 1300-1314)
+Google ScholarCrossrefPubMedWorldCat 
+Zhang J., Chen R., Xiao J., Qian C., Wang T., Li H., et al., A single-base deletion mutation in SlIAA9 gene causes tomato (Solanum lycopersicum) entire mutant, J. Plant Res., 2007, vol. 120 (pg. 671-678)
+Google ScholarCrossrefPubMedWorldCat 
+© The Author 2011. Published by Oxford University Press on behalf of Japanese Society of Plant Physiologists.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/2.5), which permits unrestricted non-commercial use distribution, and reproduction in any medium, provided the original work is properly cited.
+Supplementary data
+Supplementary Data - zip file
